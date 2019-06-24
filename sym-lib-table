@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sbc_z80-rescue)(type Legacy)(uri ${KIPRJMOD}/sbc_z80-rescue.lib)(options "")(descr ""))
+)
