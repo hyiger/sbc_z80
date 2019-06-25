@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -310,7 +310,7 @@ NoConn ~ 5270 2680
 Text HLabel 7980 2080 2    50   Output ~ 0
 CLK_100Mhz
 Text HLabel 8030 2280 2    50   Output ~ 0
-CLK_7_3728_Mhz
+CLK_10_Mhz
 Text HLabel 8030 2480 2    50   Output ~ 0
 CLK_1Mhz
 $Comp
@@ -374,5 +374,97 @@ F 3 "" H 8915 1455 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8915 805  1    50   Output ~ 0
+5V
+$Comp
+L Regulator_Linear:AZ1117-3.3 U11
+U 1 1 5D14EF24
+P 2615 1005
+F 0 "U11" H 2615 1247 50  0000 C CNN
+F 1 "AZ1117CH-3.3TRG1" H 2615 1156 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2615 1255 50  0001 C CIN
+F 3 "https://www.mouser.com/datasheet/2/115/AZ1117C-1147948.pdf" H 2615 1005 50  0001 C CNN
+	1    2615 1005
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5D1521F5
+P 2000 1100
+F 0 "C3" H 2092 1146 50  0000 L CNN
+F 1 "10uF" H 2092 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2000 1100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2000 1100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 6.3V 10uF 10% X7R" H 2092 1246 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 2000 1100 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 2000 1100 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 2092 1246 50  0001 C CNN "SPN"
+F 8 "Mouser" H 2000 1100 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2092 1246 50  0001 C CNN "SPURL"
+	1    2000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5D152201
+P 3105 1100
+F 0 "C4" H 3197 1146 50  0000 L CNN
+F 1 "22uF" H 3197 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3105 1100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3105 1100 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 3197 1246 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 3105 1100 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 3105 1100 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 3197 1246 50  0001 C CNN "SPN"
+F 8 "Mouser" H 3105 1100 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 3197 1246 50  0001 C CNN "SPURL"
+	1    3105 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1200 2000 1385
+Wire Wire Line
+	3105 1385 3105 1200
+Wire Wire Line
+	2000 1385 2615 1385
+Wire Wire Line
+	2615 1305 2615 1385
+Connection ~ 2615 1385
+Wire Wire Line
+	2615 1385 3105 1385
+Wire Wire Line
+	2615 1385 2615 1475
+$Comp
+L power:GND #PWR?
+U 1 1 5D15A1D6
+P 2615 1475
+AR Path="/5D15A1D6" Ref="#PWR?"  Part="1" 
+AR Path="/5D0F9837/5D15A1D6" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D15A1D6" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5CFFC458/5D15A1D6" Ref="#PWR?"  Part="1" 
+AR Path="/5D65A6A0/5D15A1D6" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 2615 1225 50  0001 C CNN
+F 1 "GND" H 2620 1302 50  0000 C CNN
+F 2 "" H 2615 1475 50  0001 C CNN
+F 3 "" H 2615 1475 50  0001 C CNN
+	1    2615 1475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2915 1005 3105 1005
+Wire Wire Line
+	3105 1005 3105 1000
+Wire Wire Line
+	3105 1005 3410 1005
+Connection ~ 3105 1005
+Wire Wire Line
+	1780 1000 2000 1000
+Wire Wire Line
+	2315 1000 2315 1005
+Connection ~ 2000 1000
+Wire Wire Line
+	2000 1000 2315 1000
+Text GLabel 3410 1005 2    50   Output ~ 0
+3V3
+Text GLabel 1780 1000 0    50   Input ~ 0
 5V
 $EndSCHEMATC

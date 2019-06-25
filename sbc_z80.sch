@@ -4,8 +4,8 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
-Title "RC2014"
+Sheet 1 2
+Title "THS-80"
 Date "2019-05-06"
 Rev ""
 Comp "Hyiger Designs"
@@ -14,12 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 940  6135 1250 770 
-U 5CFABACD
-F0 "Max V CPLD" 50
-F1 "cpld_and_io.sch" 50
-$EndSheet
 $Comp
 L Device:R_Pack04 RN?
 U 1 1 5D16E871
@@ -522,70 +516,70 @@ Text Label 1010 1210 0    50   ~ 0
 $Comp
 L zilog:Z84C2010AEG U9
 U 1 1 5D29F178
-P 3950 5680
-F 0 "U9" H 3565 6890 50  0000 C CNN
-F 1 "Z84C2010AEG" H 4340 6880 50  0000 C CNN
-F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 4400 7080 50  0001 L CNN
-F 3 "https://mouser.componentsearchengine.com/Datasheets/1/Z84C2010AEG.pdf" H 4600 6780 50  0001 L CNN
-F 4 "Microprocessors - MPU 10MHz Z80 CMOS PIO XTEMP" H 4400 6980 50  0001 L CNN "Description"
-F 5 "1.6" H 3300 4830 50  0001 L CNN "Height"
-F 6 "" H 4600 6480 50  0001 L CNN "Mouser Part Number"
-F 7 "" H 4600 6380 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Zilog" H 3300 4730 50  0001 L CNN "Manufacturer_Name"
-F 9 "Z84C2010AEG" H 2100 4930 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3950 5680
+P 3740 5670
+F 0 "U9" H 3355 6880 50  0000 C CNN
+F 1 "Z84C2010AEG" H 4130 6870 50  0000 C CNN
+F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 4190 7070 50  0001 L CNN
+F 3 "https://mouser.componentsearchengine.com/Datasheets/1/Z84C2010AEG.pdf" H 4390 6770 50  0001 L CNN
+F 4 "Microprocessors - MPU 10MHz Z80 CMOS PIO XTEMP" H 4190 6970 50  0001 L CNN "Description"
+F 5 "1.6" H 3090 4820 50  0001 L CNN "Height"
+F 6 "" H 4390 6470 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4390 6370 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Zilog" H 3090 4720 50  0001 L CNN "Manufacturer_Name"
+F 9 "Z84C2010AEG" H 1890 4920 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3740 5670
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 4680 2990 4680
+	3040 4670 2780 4670
 Wire Wire Line
-	3250 4780 2990 4780
+	3040 4770 2780 4770
 Wire Wire Line
-	3250 4880 2990 4880
+	3040 4870 2780 4870
 Wire Wire Line
-	3250 4980 2990 4980
+	3040 4970 2780 4970
 Wire Wire Line
-	3250 5080 2990 5080
+	3040 5070 2780 5070
 Wire Wire Line
-	3250 5180 2990 5180
+	3040 5170 2780 5170
 Wire Wire Line
-	3250 5280 2990 5280
+	3040 5270 2780 5270
 Wire Wire Line
-	3250 5380 2990 5380
+	3040 5370 2780 5370
 Entry Wire Line
-	2890 4580 2990 4680
+	2680 4570 2780 4670
 Entry Wire Line
-	2890 4680 2990 4780
+	2680 4670 2780 4770
 Entry Wire Line
-	2890 4780 2990 4880
+	2680 4770 2780 4870
 Entry Wire Line
-	2890 4880 2990 4980
+	2680 4870 2780 4970
 Entry Wire Line
-	2890 4980 2990 5080
+	2680 4970 2780 5070
 Entry Wire Line
-	2890 5080 2990 5180
+	2680 5070 2780 5170
 Entry Wire Line
-	2890 5180 2990 5280
+	2680 5170 2780 5270
 Entry Wire Line
-	2890 5280 2990 5380
-Text Label 3060 4680 0    50   ~ 0
+	2680 5270 2780 5370
+Text Label 2850 4670 0    50   ~ 0
 D0
-Text Label 3060 4780 0    50   ~ 0
+Text Label 2850 4770 0    50   ~ 0
 D1
-Text Label 3060 4880 0    50   ~ 0
+Text Label 2850 4870 0    50   ~ 0
 D2
-Text Label 3060 4980 0    50   ~ 0
+Text Label 2850 4970 0    50   ~ 0
 D3
-Text Label 3060 5080 0    50   ~ 0
+Text Label 2850 5070 0    50   ~ 0
 D4
-Text Label 3060 5180 0    50   ~ 0
+Text Label 2850 5170 0    50   ~ 0
 D5
-Text Label 3060 5280 0    50   ~ 0
+Text Label 2850 5270 0    50   ~ 0
 D6
-Text Label 3060 5380 0    50   ~ 0
+Text Label 2850 5370 0    50   ~ 0
 D7
 Wire Bus Line
-	2890 5335 2875 5335
+	2680 5325 2665 5325
 $Comp
 L zilog:Z84C4310AEG U1
 U 1 1 5D3AC364
@@ -718,24 +712,24 @@ Wire Wire Line
 	5375 1225 5115 1225
 Text GLabel 6075 925  1    50   Output ~ 0
 5V
-Text GLabel 3950 4380 1    50   Output ~ 0
+Text GLabel 3740 4370 1    50   Output ~ 0
 5V
 Text GLabel 6080 4345 1    50   Output ~ 0
 5V
 $Comp
 L power:GND #PWR0108
 U 1 1 5D48975B
-P 3950 7030
+P 3740 7020
 AR Path="/5D48975B" Ref="#PWR0108"  Part="1" 
 AR Path="/5CB63856/5D48975B" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D48975B" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D48975B" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D48975B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0108" H 3950 6780 50  0001 C CNN
-F 1 "GND" H 3955 6857 50  0000 C CNN
-F 2 "" H 3950 7030 50  0001 C CNN
-F 3 "" H 3950 7030 50  0001 C CNN
-	1    3950 7030
+F 0 "#PWR0108" H 3740 6770 50  0001 C CNN
+F 1 "GND" H 3745 6847 50  0000 C CNN
+F 2 "" H 3740 7020 50  0001 C CNN
+F 3 "" H 3740 7020 50  0001 C CNN
+	1    3740 7020
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1038,8 +1032,8 @@ U 5D65A6A0
 F0 "Clocks" 50
 F1 "clocks.sch" 50
 F2 "CLK_100Mhz" O L 9270 4580 50 
-F3 "CLK_7_3728_Mhz" O L 9270 4755 50 
-F4 "CLK_1Mhz" O L 9270 4935 50 
+F3 "CLK_1Mhz" O L 9270 4935 50 
+F4 "CLK_10_Mhz" O L 9270 4755 50 
 $EndSheet
 Text Label 9125 4755 2    50   ~ 0
 CLK
@@ -1176,8 +1170,6 @@ $EndComp
 Text GLabel 8095 1085 1    50   Output ~ 0
 5V
 Wire Bus Line
-	7135 2750 7130 2750
-Wire Bus Line
 	5015 3325 5010 3325
 Wire Wire Line
 	9610 1255 9350 1255
@@ -1185,8 +1177,6 @@ Wire Wire Line
 	9610 1355 9350 1355
 Wire Wire Line
 	9610 1455 9350 1455
-Wire Wire Line
-	9610 1555 9350 1555
 Wire Wire Line
 	9610 1655 9350 1655
 Wire Wire Line
@@ -1202,228 +1192,320 @@ Entry Wire Line
 Entry Wire Line
 	9250 1355 9350 1455
 Entry Wire Line
-	9250 1455 9350 1555
-Entry Wire Line
-	9250 1555 9350 1655
-Entry Wire Line
 	9250 1655 9350 1755
 Entry Wire Line
 	9250 1755 9350 1855
 Entry Wire Line
 	9250 1855 9350 1955
-Entry Wire Line
-	9250 1955 9350 2055
 Text Label 9410 1255 0    50   ~ 0
 A0
 Text Label 9410 1355 0    50   ~ 0
 A1
 Text Label 9410 1455 0    50   ~ 0
 A2
-Text Label 9410 1555 0    50   ~ 0
-A3
 Text Label 9410 1655 0    50   ~ 0
-A4
+A3
 Text Label 9415 1755 0    50   ~ 0
-A5
+A4
 Text Label 9415 1855 0    50   ~ 0
-A6
+A5
 Text Label 9420 1955 0    50   ~ 0
-A7
-Wire Wire Line
-	9610 2055 9350 2055
+A6
 Entry Wire Line
 	5115 2075 5015 1975
-Text Label 5240 2075 2    50   ~ 0
-CLK
 $Comp
-L power:GND #PWR06
-U 1 1 5D44DC77
-P 3520 3895
-AR Path="/5D44DC77" Ref="#PWR06"  Part="1" 
-AR Path="/5CB63856/5D44DC77" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5D44DC77" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5D44DC77" Ref="#PWR?"  Part="1" 
-AR Path="/5CF9C1ED/5D44DC77" Ref="#PWR?"  Part="1" 
-F 0 "#PWR06" H 3520 3645 50  0001 C CNN
-F 1 "GND" H 3525 3722 50  0000 C CNN
-F 2 "" H 3520 3895 50  0001 C CNN
-F 3 "" H 3520 3895 50  0001 C CNN
-	1    3520 3895
+L power:GND #PWR0101
+U 1 1 5D219963
+P 3745 3895
+AR Path="/5D219963" Ref="#PWR0101"  Part="1" 
+AR Path="/5CB63856/5D219963" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D219963" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D219963" Ref="#PWR?"  Part="1" 
+AR Path="/5CF9C1ED/5D219963" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 3745 3645 50  0001 C CNN
+F 1 "GND" H 3750 3722 50  0000 C CNN
+F 2 "" H 3745 3895 50  0001 C CNN
+F 3 "" H 3745 3895 50  0001 C CNN
+	1    3745 3895
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	2360 1045 2460 1145
+	2585 1045 2685 1145
 Entry Wire Line
-	2360 1145 2460 1245
+	2585 1145 2685 1245
 Entry Wire Line
-	2360 1245 2460 1345
+	2585 1245 2685 1345
 Entry Wire Line
-	2360 1345 2460 1445
+	2585 1345 2685 1445
 Entry Wire Line
-	2360 1445 2460 1545
+	2585 1445 2685 1545
 Entry Wire Line
-	2360 1545 2460 1645
+	2585 1545 2685 1645
 Entry Wire Line
-	2360 1645 2460 1745
+	2585 1645 2685 1745
 Entry Wire Line
-	2360 1745 2460 1845
+	2585 1745 2685 1845
 Entry Wire Line
-	2360 1845 2460 1945
+	2585 1845 2685 1945
 Entry Wire Line
-	2360 1945 2460 2045
+	2585 1945 2685 2045
 Entry Wire Line
-	2360 2045 2460 2145
+	2585 2045 2685 2145
 Entry Wire Line
-	2360 2145 2460 2245
+	2585 2145 2685 2245
 Entry Wire Line
-	2360 2245 2460 2345
+	2585 2245 2685 2345
 Entry Wire Line
-	2360 2345 2460 2445
+	2585 2345 2685 2445
 Entry Wire Line
-	2360 2445 2460 2545
+	2585 2445 2685 2545
 Entry Wire Line
-	2360 2545 2460 2645
+	2585 2545 2685 2645
 Entry Wire Line
-	2360 2745 2460 2845
+	2585 2745 2685 2845
 Entry Wire Line
-	2360 2845 2460 2945
+	2585 2845 2685 2945
 Entry Wire Line
-	2360 2945 2460 3045
+	2585 2945 2685 3045
 Entry Wire Line
-	2360 3045 2460 3145
+	2585 3045 2685 3145
 Entry Wire Line
-	2360 3145 2460 3245
+	2585 3145 2685 3245
 Entry Wire Line
-	2360 3245 2460 3345
+	2585 3245 2685 3345
 Entry Wire Line
-	2360 3345 2460 3445
+	2585 3345 2685 3445
 Entry Wire Line
-	2360 3445 2460 3545
-Text GLabel 3520 795  1    50   Output ~ 0
+	2585 3445 2685 3545
+Text GLabel 3745 795  1    50   Output ~ 0
 5V
-Text Label 2520 1145 0    50   ~ 0
+Text Label 2745 1145 0    50   ~ 0
 A0
-Text Label 2520 1245 0    50   ~ 0
+Text Label 2745 1245 0    50   ~ 0
 A1
-Text Label 2520 1345 0    50   ~ 0
+Text Label 2745 1345 0    50   ~ 0
 A2
-Text Label 2520 1445 0    50   ~ 0
+Text Label 2745 1445 0    50   ~ 0
 A3
-Text Label 2520 1545 0    50   ~ 0
+Text Label 2745 1545 0    50   ~ 0
 A4
-Text Label 2525 1645 0    50   ~ 0
+Text Label 2750 1645 0    50   ~ 0
 A5
-Text Label 2525 1745 0    50   ~ 0
+Text Label 2750 1745 0    50   ~ 0
 A6
-Text Label 2530 1845 0    50   ~ 0
+Text Label 2755 1845 0    50   ~ 0
 A7
-Text Label 2520 1945 0    50   ~ 0
+Text Label 2745 1945 0    50   ~ 0
 A8
-Text Label 2520 2045 0    50   ~ 0
+Text Label 2745 2045 0    50   ~ 0
 A9
-Text Label 2520 2145 0    50   ~ 0
+Text Label 2745 2145 0    50   ~ 0
 A10
-Text Label 2520 2245 0    50   ~ 0
+Text Label 2745 2245 0    50   ~ 0
 A11
-Text Label 2525 2345 0    50   ~ 0
+Text Label 2750 2345 0    50   ~ 0
 A12
-Text Label 2515 2445 0    50   ~ 0
+Text Label 2740 2445 0    50   ~ 0
 A13
-Text Label 2520 2545 0    50   ~ 0
+Text Label 2745 2545 0    50   ~ 0
 A14
-Text Label 2520 2645 0    50   ~ 0
+Text Label 2745 2645 0    50   ~ 0
 A15
-Text Label 2530 2845 0    50   ~ 0
+Text Label 2755 2845 0    50   ~ 0
 D0
-Text Label 2530 2945 0    50   ~ 0
+Text Label 2755 2945 0    50   ~ 0
 D1
-Text Label 2530 3045 0    50   ~ 0
+Text Label 2755 3045 0    50   ~ 0
 D2
-Text Label 2530 3145 0    50   ~ 0
+Text Label 2755 3145 0    50   ~ 0
 D3
-Text Label 2530 3245 0    50   ~ 0
+Text Label 2755 3245 0    50   ~ 0
 D4
-Text Label 2530 3345 0    50   ~ 0
+Text Label 2755 3345 0    50   ~ 0
 D5
-Text Label 2530 3445 0    50   ~ 0
+Text Label 2755 3445 0    50   ~ 0
 D6
-Text Label 2530 3545 0    50   ~ 0
+Text Label 2755 3545 0    50   ~ 0
 D7
-Text Notes 3460 2295 0    50   ~ 0
+Text Notes 3685 2295 0    50   ~ 0
 Z80
 Wire Wire Line
-	2720 3545 2460 3545
+	2945 3545 2685 3545
 Wire Wire Line
-	2720 3445 2460 3445
+	2945 3445 2685 3445
 Wire Wire Line
-	2720 3345 2460 3345
+	2945 3345 2685 3345
 Wire Wire Line
-	2720 3245 2460 3245
+	2945 3245 2685 3245
 Wire Wire Line
-	2720 3145 2460 3145
+	2945 3145 2685 3145
 Wire Wire Line
-	2720 3045 2460 3045
+	2945 3045 2685 3045
 Wire Wire Line
-	2720 2945 2460 2945
+	2945 2945 2685 2945
 Wire Wire Line
-	2720 2845 2460 2845
+	2945 2845 2685 2845
 Wire Wire Line
-	2720 2645 2460 2645
+	2945 2645 2685 2645
 Wire Wire Line
-	2720 2545 2460 2545
+	2945 2545 2685 2545
 Wire Wire Line
-	2720 2445 2460 2445
+	2945 2445 2685 2445
 Wire Wire Line
-	2720 2345 2460 2345
+	2945 2345 2685 2345
 Wire Wire Line
-	2720 2245 2460 2245
+	2945 2245 2685 2245
 Wire Wire Line
-	2720 2145 2460 2145
+	2945 2145 2685 2145
 Wire Wire Line
-	2720 2045 2460 2045
+	2945 2045 2685 2045
 Wire Wire Line
-	2720 1945 2460 1945
+	2945 1945 2685 1945
 Wire Wire Line
-	2720 1845 2460 1845
+	2945 1845 2685 1845
 Wire Wire Line
-	2720 1745 2460 1745
+	2945 1745 2685 1745
 Wire Wire Line
-	2720 1645 2460 1645
+	2945 1645 2685 1645
 Wire Wire Line
-	2720 1545 2460 1545
+	2945 1545 2685 1545
 Wire Wire Line
-	2720 1445 2460 1445
+	2945 1445 2685 1445
 Wire Wire Line
-	2720 1345 2460 1345
+	2945 1345 2685 1345
 Wire Wire Line
-	2720 1245 2460 1245
+	2945 1245 2685 1245
 Wire Wire Line
-	2720 1145 2460 1145
+	2945 1145 2685 1145
+Text Label 5185 2075 0    50   ~ 0
+CLK
+Wire Wire Line
+	5375 2075 5115 2075
+Wire Wire Line
+	3040 5520 2780 5520
+Entry Wire Line
+	2680 5420 2780 5520
+Text Label 2850 5520 0    50   ~ 0
+CLK
+Entry Wire Line
+	2680 5620 2780 5720
+Entry Wire Line
+	2680 5720 2780 5820
+Entry Wire Line
+	2680 5820 2780 5920
+Text Label 2840 5720 0    50   ~ 0
+A0
+Text Label 2840 5820 0    50   ~ 0
+A1
+Wire Wire Line
+	3040 5820 2780 5820
+Wire Wire Line
+	3040 5720 2780 5720
 $Comp
 L zilog:Z84C0010AEG U6
-U 1 1 5D44DCCD
-P 3520 2345
-F 0 "U6" H 3960 3805 50  0000 C CNN
-F 1 "Z84C0010AEG" H 3115 3805 50  0000 C CNN
-F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 570 3345 50  0001 L CNN
-F 3 "http://www.mouser.com/datasheet/2/450/ps0178-19386.pdf" H 4160 3545 50  0001 L CNN
-F 4 "Microprocessors - MPU 10 MHZ Z80 CMOS CPU" H 570 3495 50  0001 L CNN "Description"
-F 5 "1.6" H 1440 2715 50  0001 L CNN "Height"
-F 6 "" H 1440 2615 50  0001 L CNN "Mouser Part Number"
-F 7 "" H 4160 2805 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Zilog" H 4160 3155 50  0001 L CNN "Manufacturer_Name"
-F 9 "Z84C0010AEG" H 3720 3595 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3520 2345
+U 1 1 5D2199BA
+P 3745 2345
+F 0 "U6" H 4185 3805 50  0000 C CNN
+F 1 "Z84C0010AEG" H 3340 3805 50  0000 C CNN
+F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 795 3345 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/450/ps0178-19386.pdf" H 4385 3545 50  0001 L CNN
+F 4 "Microprocessors - MPU 10 MHZ Z80 CMOS CPU" H 795 3495 50  0001 L CNN "Description"
+F 5 "1.6" H 1665 2715 50  0001 L CNN "Height"
+F 6 "" H 1665 2615 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4385 2805 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Zilog" H 4385 3155 50  0001 L CNN "Manufacturer_Name"
+F 9 "Z84C0010AEG" H 3945 3595 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3745 2345
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5115 2075 5385 2075
+	5375 2775 5115 2775
+Wire Wire Line
+	5375 2875 5115 2875
+Entry Wire Line
+	5015 2675 5115 2775
+Entry Wire Line
+	5015 2775 5115 2875
+Entry Wire Line
+	5015 2875 5115 2975
+Text Label 5175 2775 0    50   ~ 0
+A0
+Text Label 5175 2875 0    50   ~ 0
+A1
+Entry Wire Line
+	9250 1555 9350 1655
+Entry Wire Line
+	9250 2055 9350 2155
+Wire Wire Line
+	9610 2155 9350 2155
+Wire Wire Line
+	9395 3105 9125 3105
+Entry Wire Line
+	9125 3205 9025 3105
+Text Label 9370 2155 0    50   ~ 0
+~IORQ
+Text Label 9385 2255 0    50   ~ 0
+~RD
+Entry Wire Line
+	9125 3105 9025 3005
+Text Label 9385 2355 0    50   ~ 0
+~WR
+Entry Wire Line
+	9250 2155 9350 2255
+Wire Wire Line
+	9610 2255 9350 2255
+Entry Wire Line
+	9250 2255 9350 2355
+Wire Wire Line
+	9610 2355 9350 2355
+Entry Wire Line
+	9250 2355 9350 2455
+Wire Wire Line
+	9610 2455 9350 2455
+Entry Wire Line
+	9250 2455 9350 2555
+Wire Wire Line
+	9610 2555 9350 2555
+Text Label 9400 2555 0    50   ~ 0
+A7
+Entry Wire Line
+	9250 2555 9350 2655
+Wire Wire Line
+	9610 2655 9350 2655
+Text Label 9400 2655 0    50   ~ 0
+A7
+Entry Wire Line
+	9250 2655 9350 2755
+Wire Wire Line
+	9610 2755 9350 2755
+Text Label 9400 2755 0    50   ~ 0
+A7
+Text Label 9370 2455 0    50   ~ 0
+~MREQ
+Wire Wire Line
+	7495 2885 7235 2885
+Wire Wire Line
+	7495 2985 7235 2985
+Wire Wire Line
+	7495 3085 7235 3085
+Entry Wire Line
+	7135 2785 7235 2885
+Entry Wire Line
+	7135 2885 7235 2985
+Entry Wire Line
+	7135 2985 7235 3085
+Text Label 7290 2885 0    50   ~ 0
+A16
+Text Label 7295 2985 0    50   ~ 0
+A17
+Text Label 7295 3085 0    50   ~ 0
+A18
+Wire Bus Line
+	7135 2755 7135 3120
+Wire Bus Line
+	2680 5330 2680 6810
 Wire Bus Line
 	895  765  895  1160
-Wire Bus Line
-	5015 1080 5015 3325
-Wire Bus Line
-	9250 1130 9250 2720
 Wire Bus Line
 	8900 4135 8900 4960
 Wire Bus Line
@@ -1431,9 +1513,13 @@ Wire Bus Line
 Wire Bus Line
 	5020 4490 5020 5305
 Wire Bus Line
-	2890 4510 2890 5335
+	2680 4500 2680 5325
 Wire Bus Line
 	730  2405 730  3195
+Wire Bus Line
+	5015 1080 5015 3325
+Wire Bus Line
+	9250 1130 9250 2720
 Wire Bus Line
 	7380 4150 7380 5755
 Wire Bus Line
@@ -1445,5 +1531,7 @@ Wire Bus Line
 Wire Bus Line
 	1970 3370 1970 5605
 Wire Bus Line
-	2360 975  2360 3525
+	2585 975  2585 3525
+Text Notes 8015 2280 0    50   ~ 0
+SRAM
 $EndSCHEMATC
