@@ -1,4 +1,4 @@
-update=Tuesday, June 25, 2019 at 01:02:12 AM
+update=Wednesday, June 26, 2019 at 12:16:10 AM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=rc2014_monitor.net
+LastNetListRead=sbc_z80.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -39,7 +39,9 @@ MinMicroViaDiameter=0
 MinMicroViaDrill=0
 MinHoleToHole=0.1524
 TrackWidth1=0.1524
-TrackWidth2=0.3048
+TrackWidth2=0.1524
+TrackWidth3=0.254
+TrackWidth4=0.3048
 ViaDiameter1=0.6858
 ViaDrill1=0.3302
 ViaDiameter2=0.889
@@ -200,9 +202,9 @@ Name=B.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.F.Adhes]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.B.Paste]
 Enabled=1
 [pcbnew/Layer.F.Paste]
@@ -216,13 +218,13 @@ Enabled=1
 [pcbnew/Layer.F.Mask]
 Enabled=1
 [pcbnew/Layer.Dwgs.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Cmts.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Eco1.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Eco2.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
@@ -242,28 +244,6 @@ Enabled=0
 Name=Default
 Clearance=0.1524
 TrackWidth=0.1524
-ViaDiameter=0.6858
-ViaDrill=0.3302
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=Net-(D1-Pad1)\tDefault\r
-Clearance=0.2032
-TrackWidth=0.2032
-ViaDiameter=0.6858
-ViaDrill=0.3302
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=Power
-Clearance=0.2032
-TrackWidth=0.3048
 ViaDiameter=0.6858
 ViaDrill=0.3302
 uViaDiameter=0.3
