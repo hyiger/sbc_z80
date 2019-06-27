@@ -2030,7 +2030,7 @@ U 1 1 5E828563
 P 13780 5225
 F 0 "J3" H 13830 5942 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 13830 5851 50  0000 C CNN
-F 2 "" H 13780 5225 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal" H 13780 5225 50  0001 C CNN
 F 3 "~" H 13780 5225 50  0001 C CNN
 	1    13780 5225
 	1    0    0    -1  
@@ -2219,6 +2219,88 @@ F 3 "" H 1080 3560 50  0001 C CNN
 	1    1080 3560
 	0    1    1    0   
 $EndComp
+Text Label 7735 2505 2    50   ~ 0
+~NMI
+Text Label 7735 2255 2    50   ~ 0
+~WAIT
+Text Label 7735 2155 2    50   ~ 0
+~HALT
+Text Label 7735 1605 2    50   ~ 0
+~WR
+Text Label 7735 1505 2    50   ~ 0
+~RD
+Text Label 7735 1255 2    50   ~ 0
+PAGE
+Text Label 7775 1155 2    50   ~ 0
+ROM_CE
+Entry Wire Line
+	7905 2405 7805 2505
+Entry Wire Line
+	7905 1705 7805 1805
+Entry Wire Line
+	7905 2055 7805 2155
+Entry Wire Line
+	7905 1505 7805 1605
+Entry Wire Line
+	7905 1405 7805 1505
+Entry Wire Line
+	7905 1155 7805 1255
+Entry Wire Line
+	7905 1055 7805 1155
+Entry Wire Line
+	7905 955  7805 1055
+Wire Wire Line
+	7545 2505 7805 2505
+Wire Wire Line
+	7545 1805 7805 1805
+Wire Wire Line
+	7545 2155 7805 2155
+Wire Wire Line
+	7545 1605 7805 1605
+Wire Wire Line
+	7545 1505 7805 1505
+Wire Wire Line
+	7545 1255 7805 1255
+Wire Wire Line
+	7545 1155 7805 1155
+Wire Wire Line
+	7545 1055 7805 1055
+Entry Wire Line
+	7805 3405 7905 3305
+Text Label 7735 3405 2    50   ~ 0
+CLK
+Wire Wire Line
+	7545 3405 7805 3405
+Entry Wire Line
+	7905 2155 7805 2255
+Wire Wire Line
+	7545 2255 7805 2255
+Entry Wire Line
+	7905 2505 7805 2605
+Wire Wire Line
+	7545 2605 7805 2605
+Entry Wire Line
+	7905 2655 7805 2755
+Wire Wire Line
+	7545 2755 7805 2755
+Entry Wire Line
+	7905 2905 7805 3005
+Wire Wire Line
+	7545 3005 7805 3005
+Entry Wire Line
+	7905 3005 7805 3105
+Wire Wire Line
+	7545 3105 7805 3105
+Text Label 7800 1055 2    50   ~ 0
+RAM_CE
+Text Label 7730 2605 2    50   ~ 0
+~INT
+Text Label 7770 2755 2    50   ~ 0
+~RESET
+Text Label 7780 3005 2    50   ~ 0
+~BUSREQ
+Text Label 7775 3105 2    50   ~ 0
+~BUSACK
 Wire Bus Line
 	7060 6225 7060 6610
 Wire Bus Line
@@ -2242,6 +2324,8 @@ Wire Bus Line
 Wire Bus Line
 	4740 935  4740 3385
 Wire Bus Line
+	7905 910  7905 3360
+Wire Bus Line
 	4835 4435 4835 6315
 Wire Bus Line
 	2600 4570 2600 6160
@@ -2253,4 +2337,26 @@ Wire Bus Line
 	2370 910  2370 3460
 Wire Bus Line
 	9885 885  9885 6255
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5D23E8B7
+P 13230 1350
+F 0 "J4" H 13310 1342 50  0000 L CNN
+F 1 "Conn_01x06" H 13310 1251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 13230 1350 50  0001 C CNN
+F 3 "~" H 13230 1350 50  0001 C CNN
+	1    13230 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5D23FD21
+P 13210 2170
+F 0 "J5" H 13290 2162 50  0000 L CNN
+F 1 "Conn_01x06" H 13290 2071 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 13210 2170 50  0001 C CNN
+F 3 "~" H 13210 2170 50  0001 C CNN
+	1    13210 2170
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
