@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP GLS29EE010
+D EEPROM 1Mbit (128K x 8) Page-Write EEPROM FLASH 128B Sector C-TEMP
+F https://www.mouser.com/datasheet/2/176/71061-1102136.pdf
+$ENDCMP
+#
 #End Doc Library
