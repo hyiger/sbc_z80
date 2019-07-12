@@ -70,51 +70,51 @@ $EndComp
 $Comp
 L Device:C_Small C15
 U 1 1 5D255C0D
-P 4235 2495
-F 0 "C15" H 4327 2541 50  0000 L CNN
-F 1 "0.47uF" H 4327 2450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4235 2495 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4235 2495 50  0001 C CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 4327 2641 50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 4235 2495 50  0001 C CNN "MFR"
-F 6 "JMK107B7474KA-T" H 4235 2495 50  0001 C CNN "MPN"
-F 7 "963-JMK107B7474KA-T" H 4327 2641 50  0001 C CNN "SPN"
-F 8 "Mouser" H 4235 2495 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4327 2641 50  0001 C CNN "SPURL"
-	1    4235 2495
+P 3810 2495
+F 0 "C15" H 3902 2541 50  0000 L CNN
+F 1 "0.47uF" H 3902 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3810 2495 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3810 2495 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 3902 2641 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 3810 2495 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 3810 2495 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 3902 2641 50  0001 C CNN "SPN"
+F 8 "Mouser" H 3810 2495 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 3902 2641 50  0001 C CNN "SPURL"
+	1    3810 2495
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C16
 U 1 1 5D255C0E
-P 4615 2495
-F 0 "C16" H 4707 2541 50  0000 L CNN
-F 1 "0.47uF" H 4707 2450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4615 2495 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4615 2495 50  0001 C CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 4707 2641 50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 4615 2495 50  0001 C CNN "MFR"
-F 6 "JMK107B7474KA-T" H 4615 2495 50  0001 C CNN "MPN"
-F 7 "963-JMK107B7474KA-T" H 4707 2641 50  0001 C CNN "SPN"
-F 8 "Mouser" H 4615 2495 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4707 2641 50  0001 C CNN "SPURL"
-	1    4615 2495
+P 4190 2495
+F 0 "C16" H 4282 2541 50  0000 L CNN
+F 1 "0.47uF" H 4282 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4190 2495 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 4190 2495 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 4282 2641 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 4190 2495 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 4190 2495 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 4282 2641 50  0001 C CNN "SPN"
+F 8 "Mouser" H 4190 2495 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4282 2641 50  0001 C CNN "SPURL"
+	1    4190 2495
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D00E3D9
-P 4425 2635
+P 4000 2635
 AR Path="/5D00E3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D00E3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D00E3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D00E3D9" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D00E3D9" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 4425 2385 50  0001 C CNN
-F 1 "GND" H 4430 2462 50  0000 C CNN
-F 2 "" H 4425 2635 50  0001 C CNN
-F 3 "" H 4425 2635 50  0001 C CNN
-	1    4425 2635
+F 0 "#PWR041" H 4000 2385 50  0001 C CNN
+F 1 "GND" H 4005 2462 50  0000 C CNN
+F 2 "" H 4000 2635 50  0001 C CNN
+F 3 "" H 4000 2635 50  0001 C CNN
+	1    4000 2635
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -164,29 +164,25 @@ Wire Wire Line
 Wire Wire Line
 	8080 1005 8180 1005
 Wire Wire Line
-	4235 2595 4425 2595
+	3810 2595 4000 2595
 Wire Wire Line
-	4235 2395 4425 2395
+	3810 2395 4000 2395
 Wire Wire Line
-	4425 2635 4425 2595
+	4000 2635 4000 2595
 Wire Wire Line
-	4425 2595 4615 2595
+	4000 2595 4190 2595
 Wire Wire Line
-	4425 2395 4425 2295
+	4000 2395 4000 2295
 Wire Wire Line
-	4425 2395 4615 2395
+	4000 2395 4190 2395
 Wire Wire Line
 	7580 1805 7180 1805
 Wire Wire Line
 	6530 1425 6530 1705
 Wire Wire Line
-	6420 1705 6530 1705
-Wire Wire Line
 	6530 1705 7080 1705
 Wire Wire Line
 	6730 1425 6730 1805
-Wire Wire Line
-	6730 1805 6420 1805
 Wire Wire Line
 	6530 1225 6530 1165
 Wire Wire Line
@@ -198,92 +194,90 @@ Wire Wire Line
 Wire Wire Line
 	6630 1165 6730 1165
 Connection ~ 8080 1005
-Connection ~ 4425 2595
-Connection ~ 4425 2395
-Connection ~ 6530 1705
-Connection ~ 6730 1805
+Connection ~ 4000 2595
+Connection ~ 4000 2395
 Connection ~ 6630 1165
 $Comp
 L MCU_Microchip_ATtiny:ATtiny1614-SS U11
 U 1 1 5D018E69
-P 5820 2105
-F 0 "U11" H 5815 2120 50  0000 C CNN
-F 1 "ATtiny1614-SS" H 5820 2025 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5820 2105 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5820 2105 50  0001 C CNN
-F 4 "8-bit Microcontrollers - MCU 20MHZ SOIC 85C GRN" H 5820 2105 50  0001 C CNN "Description"
-F 5 "Microchip Technology" H 5820 2105 50  0001 C CNN "MFR"
-F 6 "ATTINY1614-SSNR" H 5820 2105 50  0001 C CNN "MPN"
-F 7 "556-ATTINY1614SSNR" H 5820 2105 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5820 2105 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/556-ATTINY1614SSNR" H 5820 2105 50  0001 C CNN "SPURL"
-	1    5820 2105
+P 5395 2105
+F 0 "U11" H 5390 2120 50  0000 C CNN
+F 1 "ATtiny1614-SS" H 5395 2025 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5395 2105 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5395 2105 50  0001 C CNN
+F 4 "8-bit Microcontrollers - MCU 20MHZ SOIC 85C GRN" H 5395 2105 50  0001 C CNN "Description"
+F 5 "Microchip Technology" H 5395 2105 50  0001 C CNN "MFR"
+F 6 "ATTINY1614-SSNR" H 5395 2105 50  0001 C CNN "MPN"
+F 7 "556-ATTINY1614SSNR" H 5395 2105 50  0001 C CNN "SPN"
+F 8 "Mouser" H 5395 2105 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/556-ATTINY1614SSNR" H 5395 2105 50  0001 C CNN "SPURL"
+	1    5395 2105
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5820 1405 5820 1305
+	5395 1405 5395 1305
 $Comp
 L power:GND #PWR?
 U 1 1 5D01D4B0
-P 5820 2805
+P 5395 2805
 AR Path="/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D01D4B0" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 5820 2555 50  0001 C CNN
-F 1 "GND" H 5825 2632 50  0000 C CNN
-F 2 "" H 5820 2805 50  0001 C CNN
-F 3 "" H 5820 2805 50  0001 C CNN
-	1    5820 2805
+F 0 "#PWR042" H 5395 2555 50  0001 C CNN
+F 1 "GND" H 5400 2632 50  0000 C CNN
+F 2 "" H 5395 2805 50  0001 C CNN
+F 3 "" H 5395 2805 50  0001 C CNN
+	1    5395 2805
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5D03DC78
-P 3915 1705
+P 3490 1705
 AR Path="/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5CF9C1ED/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5D65A6A0/5D03DC78" Ref="J2"  Part="1" 
-F 0 "J2" H 3910 2110 50  0000 C CNN
-F 1 "UPDI TTL" H 3915 1980 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3915 1705 50  0001 C CNN
-F 3 "~" H 3915 1705 50  0001 C CNN
-	1    3915 1705
+F 0 "J2" H 3485 2110 50  0000 C CNN
+F 1 "UPDI TTL" H 3490 1980 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3490 1705 50  0001 C CNN
+F 3 "~" H 3490 1705 50  0001 C CNN
+	1    3490 1705
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4115 1705 4680 1705
-Text Label 4455 1705 0    50   ~ 0
+	3690 1705 4255 1705
+Text Label 4030 1705 0    50   ~ 0
 TX
 $Comp
 L Device:R_Small R3
 U 1 1 5D041A40
-P 4780 1705
-F 0 "R3" H 4839 1751 50  0000 L CNN
-F 1 "4K7" H 4839 1660 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4780 1705 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 4780 1705 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 4839 1851 50  0001 C CNN "Description"
-F 5 "Yageo" H 4780 1705 50  0001 C CNN "MFR"
-F 6 "RC0603JR-071KL" H 4780 1705 50  0001 C CNN "MPN"
-F 7 "603-RC0603JR-071KL" H 4839 1851 50  0001 C CNN "SPN"
-F 8 "Mouser" H 4780 1705 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 4839 1851 50  0001 C CNN "SPURL"
-	1    4780 1705
+P 4355 1705
+F 0 "R3" H 4414 1751 50  0000 L CNN
+F 1 "4K7" H 4414 1660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4355 1705 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 4355 1705 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 4414 1851 50  0001 C CNN "Description"
+F 5 "Yageo" H 4355 1705 50  0001 C CNN "MFR"
+F 6 "RC0603JR-071KL" H 4355 1705 50  0001 C CNN "MPN"
+F 7 "603-RC0603JR-071KL" H 4414 1851 50  0001 C CNN "SPN"
+F 8 "Mouser" H 4355 1705 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 4414 1851 50  0001 C CNN "SPURL"
+	1    4355 1705
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4880 1705 4995 1705
+	4455 1705 4570 1705
 Wire Wire Line
-	4115 1805 4995 1805
+	3690 1805 4570 1805
 Wire Wire Line
-	4995 1805 4995 1705
-Connection ~ 4995 1705
+	4570 1805 4570 1705
+Connection ~ 4570 1705
 Wire Wire Line
-	4995 1705 5220 1705
-Text Label 4440 1805 0    50   ~ 0
+	4570 1705 4795 1705
+Text Label 4015 1805 0    50   ~ 0
 RX
 Text HLabel 9445 1080 2    50   Output ~ 0
 CLK_100Mhz
@@ -378,23 +372,23 @@ $EndComp
 $Comp
 L power:+3V3 #PWR039
 U 1 1 5EFB3E73
-P 4425 2295
-F 0 "#PWR039" H 4425 2145 50  0001 C CNN
-F 1 "+3V3" V 4440 2423 50  0000 L CNN
-F 2 "" H 4425 2295 50  0001 C CNN
-F 3 "" H 4425 2295 50  0001 C CNN
-	1    4425 2295
+P 4000 2295
+F 0 "#PWR039" H 4000 2145 50  0001 C CNN
+F 1 "+3V3" V 4015 2423 50  0000 L CNN
+F 2 "" H 4000 2295 50  0001 C CNN
+F 3 "" H 4000 2295 50  0001 C CNN
+	1    4000 2295
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR036
 U 1 1 5EFB591E
-P 5820 1305
-F 0 "#PWR036" H 5820 1155 50  0001 C CNN
-F 1 "+3V3" V 5835 1433 50  0000 L CNN
-F 2 "" H 5820 1305 50  0001 C CNN
-F 3 "" H 5820 1305 50  0001 C CNN
-	1    5820 1305
+P 5395 1305
+F 0 "#PWR036" H 5395 1155 50  0001 C CNN
+F 1 "+3V3" V 5410 1433 50  0000 L CNN
+F 2 "" H 5395 1305 50  0001 C CNN
+F 3 "" H 5395 1305 50  0001 C CNN
+	1    5395 1305
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -431,25 +425,25 @@ F 3 "" H 9095 2435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4115 1605 4115 1370
+	3690 1605 3690 1370
 Wire Wire Line
-	4115 1370 4320 1370
+	3690 1370 3895 1370
 Wire Wire Line
-	4320 1370 4320 1420
+	3895 1370 3895 1420
 $Comp
 L power:GND #PWR?
 U 1 1 5EFBCFCB
-P 4320 1420
+P 3895 1420
 AR Path="/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5EFBCFCB" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 4320 1170 50  0001 C CNN
-F 1 "GND" H 4325 1247 50  0000 C CNN
-F 2 "" H 4320 1420 50  0001 C CNN
-F 3 "" H 4320 1420 50  0001 C CNN
-	1    4320 1420
+F 0 "#PWR037" H 3895 1170 50  0001 C CNN
+F 1 "GND" H 3900 1247 50  0000 C CNN
+F 2 "" H 3895 1420 50  0001 C CNN
+F 3 "" H 3895 1420 50  0001 C CNN
+	1    3895 1420
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -692,7 +686,7 @@ F 3 "" H 7010 3235 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:TPS7A0533PDBVR U2
+L sbc_z80-rescue:TPS7A0533PDBVR-Regulator_Linear U2
 U 1 1 5D35A913
 P 1980 1045
 F 0 "U2" H 1980 1387 50  0000 C CNN
@@ -710,24 +704,24 @@ Wire Wire Line
 Connection ~ 1265 945 
 Wire Wire Line
 	1265 945  1475 945 
-Text HLabel 5220 1805 0    50   Input ~ 0
+Text HLabel 4795 1805 0    50   Input ~ 0
 D0
-Text HLabel 5220 1905 0    50   Input ~ 0
+Text HLabel 4795 1905 0    50   Input ~ 0
 D1
-Text HLabel 5220 2005 0    50   Input ~ 0
+Text HLabel 4795 2005 0    50   Input ~ 0
 D2
-Text HLabel 5220 2105 0    50   Input ~ 0
+Text HLabel 4795 2105 0    50   Input ~ 0
 D3
-Text HLabel 5220 2205 0    50   Input ~ 0
+Text HLabel 4795 2205 0    50   Input ~ 0
 D4
-Text HLabel 5220 2305 0    50   Input ~ 0
+Text HLabel 4795 2305 0    50   Input ~ 0
 D5
-Text HLabel 5220 2405 0    50   Input ~ 0
+Text HLabel 4795 2405 0    50   Input ~ 0
 D6
-Text HLabel 6420 1905 2    50   Input ~ 0
+Text HLabel 5995 1905 2    50   Input ~ 0
 D7
-Text HLabel 6420 2005 2    50   Input ~ 0
-D_ENA
+Text HLabel 6390 2005 2    50   Input ~ 0
+IRQ
 Wire Wire Line
 	7080 1705 7080 2080
 Connection ~ 7080 1705
@@ -743,6 +737,33 @@ SCL
 Text HLabel 7180 2080 3    50   Output ~ 0
 SDA
 $Comp
+L sbc_z80-rescue:ACDA02-41SGWA-F01-Display_Character U?
+U 1 1 5F4897F6
+P 5085 4185
+AR Path="/5F4897F6" Ref="U?"  Part="1" 
+AR Path="/5D65A6A0/5F4897F6" Ref="U14"  Part="1" 
+F 0 "U14" H 5085 4860 50  0000 C CNN
+F 1 "ACDA02-41SGWA-F01" H 5085 4769 50  0000 C CNN
+F 2 "Display:ACDA02-41SGWA-F01" H 5075 3505 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/ACDA02-41SGWA-F01-42033.pdf" H 4830 4415 50  0001 C CNN
+	1    5085 4185
+	1    0    0    -1  
+$EndComp
+Text Label 7315 1805 0    50   ~ 0
+SDA
+Text Label 7315 1705 0    50   ~ 0
+SCL
+Wire Wire Line
+	5995 1705 6530 1705
+Connection ~ 6530 1705
+Wire Wire Line
+	5995 1805 6730 1805
+Connection ~ 6730 1805
+Wire Wire Line
+	5995 2005 6390 2005
+Text Label 6205 2005 0    50   ~ 0
+IRQ
+$Comp
 L Interface_Expansion:AS1115-BSST U?
 U 1 1 5F4897F0
 P 2635 4585
@@ -755,21 +776,267 @@ F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b18
 	1    2635 4585
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2035 4185 1520 4185
+Wire Wire Line
+	2035 4285 1520 4285
+Wire Wire Line
+	2035 4485 1520 4485
+Text Label 1660 4485 0    50   ~ 0
+IRQ
+Wire Wire Line
+	3235 3585 3495 3585
+Wire Wire Line
+	3235 3685 3495 3685
+Wire Wire Line
+	3235 3785 3495 3785
+Wire Wire Line
+	3235 3885 3495 3885
+Wire Wire Line
+	3235 3985 3495 3985
+Wire Wire Line
+	3235 4085 3495 4085
+Wire Wire Line
+	3235 4185 3495 4185
+Wire Wire Line
+	3235 4385 3495 4385
+Entry Wire Line
+	3595 3485 3495 3585
+Entry Wire Line
+	3595 3585 3495 3685
+Entry Wire Line
+	3595 3685 3495 3785
+Entry Wire Line
+	3595 3785 3495 3885
+Entry Wire Line
+	3595 3885 3495 3985
+Entry Wire Line
+	3595 3985 3495 4085
+Entry Wire Line
+	3595 4085 3495 4185
+Entry Wire Line
+	3595 4285 3495 4385
+Text Label 3425 3585 2    50   ~ 0
+A
+Text Label 3425 3685 2    50   ~ 0
+B
+Text Label 3425 3785 2    50   ~ 0
+C
+Text Label 3425 3885 2    50   ~ 0
+D
+Text Label 3425 3985 2    50   ~ 0
+E
+Text Label 3425 4085 2    50   ~ 0
+F
+Text Label 3425 4185 2    50   ~ 0
+G
+Text Label 3425 4385 2    50   ~ 0
+DP
+Wire Wire Line
+	3235 4585 3495 4585
+Wire Wire Line
+	3235 4685 3495 4685
+Entry Wire Line
+	3595 4485 3495 4585
+Entry Wire Line
+	3595 4585 3495 4685
+Text Label 3425 4585 2    50   ~ 0
+DIG0
+Text Label 3425 4685 2    50   ~ 0
+DIG1
+Wire Wire Line
+	4585 3735 4325 3735
+Wire Wire Line
+	4585 3835 4325 3835
+Wire Wire Line
+	4585 3935 4325 3935
+Wire Wire Line
+	4585 4035 4325 4035
+Wire Wire Line
+	4585 4135 4325 4135
+Wire Wire Line
+	4585 4235 4325 4235
+Wire Wire Line
+	4585 4335 4325 4335
+Wire Wire Line
+	4585 4435 4325 4435
+Entry Wire Line
+	4225 3635 4325 3735
+Entry Wire Line
+	4225 3735 4325 3835
+Entry Wire Line
+	4225 3835 4325 3935
+Entry Wire Line
+	4225 3935 4325 4035
+Entry Wire Line
+	4225 4035 4325 4135
+Entry Wire Line
+	4225 4135 4325 4235
+Entry Wire Line
+	4225 4235 4325 4335
+Entry Wire Line
+	4225 4335 4325 4435
+Text Label 4395 3735 0    50   ~ 0
+A
+Text Label 4395 3835 0    50   ~ 0
+B
+Text Label 4395 3935 0    50   ~ 0
+C
+Text Label 4395 4035 0    50   ~ 0
+D
+Text Label 4395 4135 0    50   ~ 0
+E
+Text Label 4395 4235 0    50   ~ 0
+F
+Text Label 4395 4335 0    50   ~ 0
+G
+Text Label 4395 4435 0    50   ~ 0
+DP
+Wire Wire Line
+	4585 4535 4325 4535
+Wire Wire Line
+	4585 4635 4325 4635
+Entry Wire Line
+	4225 4435 4325 4535
+Entry Wire Line
+	4225 4535 4325 4635
+Text Label 4395 4535 0    50   ~ 0
+DIG0
+Text Label 4395 4635 0    50   ~ 0
+DIG0
+Wire Wire Line
+	5585 3735 5845 3735
+Wire Wire Line
+	5585 3835 5845 3835
+Wire Wire Line
+	5585 3935 5845 3935
+Wire Wire Line
+	5585 4035 5845 4035
+Wire Wire Line
+	5585 4135 5845 4135
+Wire Wire Line
+	5585 4235 5845 4235
+Wire Wire Line
+	5585 4335 5845 4335
+Wire Wire Line
+	5585 4435 5845 4435
+Entry Wire Line
+	5945 3635 5845 3735
+Entry Wire Line
+	5945 3735 5845 3835
+Entry Wire Line
+	5945 3835 5845 3935
+Entry Wire Line
+	5945 3935 5845 4035
+Entry Wire Line
+	5945 4035 5845 4135
+Entry Wire Line
+	5945 4135 5845 4235
+Entry Wire Line
+	5945 4235 5845 4335
+Entry Wire Line
+	5945 4335 5845 4435
+Text Label 5775 3735 2    50   ~ 0
+A
+Text Label 5775 3835 2    50   ~ 0
+B
+Text Label 5775 3935 2    50   ~ 0
+C
+Text Label 5775 4035 2    50   ~ 0
+D
+Text Label 5775 4135 2    50   ~ 0
+E
+Text Label 5775 4235 2    50   ~ 0
+F
+Text Label 5775 4335 2    50   ~ 0
+G
+Text Label 5775 4435 2    50   ~ 0
+DP
+Wire Wire Line
+	5585 4535 5845 4535
+Wire Wire Line
+	5585 4635 5845 4635
+Entry Wire Line
+	5945 4435 5845 4535
+Entry Wire Line
+	5945 4535 5845 4635
+Text Label 5775 4535 2    50   ~ 0
+DIG1
+Text Label 5775 4635 2    50   ~ 0
+DIG1
+NoConn ~ 3235 4785
+NoConn ~ 3235 4885
+NoConn ~ 3235 4985
+NoConn ~ 3235 5085
+NoConn ~ 3235 5185
+NoConn ~ 3235 5585
+NoConn ~ 3235 5485
+NoConn ~ 3235 5285
+Text Label 1655 4185 0    50   ~ 0
+SCL
+Text Label 1655 4285 0    50   ~ 0
+SDA
 $Comp
-L Display_Character:ACDA02-41SGWA-F01 U?
-U 1 1 5F4897F6
-P 4355 4620
-AR Path="/5F4897F6" Ref="U?"  Part="1" 
-AR Path="/5D65A6A0/5F4897F6" Ref="U14"  Part="1" 
-F 0 "U14" H 4355 5295 50  0000 C CNN
-F 1 "ACDA02-41SGWA-F01" H 4355 5204 50  0000 C CNN
-F 2 "Display:ACDA02-41SGWA-F01" H 4345 3940 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/216/ACDA02-41SGWA-F01-42033.pdf" H 4100 4850 50  0001 C CNN
-	1    4355 4620
+L power:GND #PWR?
+U 1 1 5D361F7F
+P 2635 5785
+AR Path="/5D361F7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D0F9837/5D361F7F" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D361F7F" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5CFFC458/5D361F7F" Ref="#PWR?"  Part="1" 
+AR Path="/5D65A6A0/5D361F7F" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 2635 5535 50  0001 C CNN
+F 1 "GND" H 2640 5612 50  0000 C CNN
+F 2 "" H 2635 5785 50  0001 C CNN
+F 3 "" H 2635 5785 50  0001 C CNN
+	1    2635 5785
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2635 3385 2635 3330
+$Comp
+L power:+3V3 #PWR047
+U 1 1 5D369131
+P 2635 3285
+F 0 "#PWR047" H 2635 3135 50  0001 C CNN
+F 1 "+3V3" V 2650 3413 50  0000 L CNN
+F 2 "" H 2635 3285 50  0001 C CNN
+F 3 "" H 2635 3285 50  0001 C CNN
+	1    2635 3285
 	1    0    0    -1  
 $EndComp
-Text Label 7315 1805 0    50   ~ 0
-SDA
-Text Label 7315 1705 0    50   ~ 0
-SCL
+$Comp
+L Device:R_Small R37
+U 1 1 5D374E92
+P 1795 3605
+F 0 "R37" H 1854 3651 50  0000 L CNN
+F 1 "9.53K" H 1854 3560 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1795 3605 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1795 3605 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 1854 3751 50  0001 C CNN "Description"
+F 5 "Yageo" H 1795 3605 50  0001 C CNN "MFR"
+F 6 "RC0603JR-071KL" H 1795 3605 50  0001 C CNN "MPN"
+F 7 "603-RC0603JR-071KL" H 1854 3751 50  0001 C CNN "SPN"
+F 8 "Mouser" H 1795 3605 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 1854 3751 50  0001 C CNN "SPURL"
+	1    1795 3605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1795 3705 1795 3985
+Wire Wire Line
+	2035 3985 1795 3985
+Wire Wire Line
+	1795 3505 1795 3330
+Wire Wire Line
+	1795 3330 2635 3330
+Connection ~ 2635 3330
+Wire Wire Line
+	2635 3330 2635 3285
+Wire Bus Line
+	5945 3580 5945 4640
+Wire Bus Line
+	4225 3580 4225 4640
+Wire Bus Line
+	3595 3415 3595 4690
 $EndSCHEMATC
