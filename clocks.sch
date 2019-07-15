@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Oscillator:Si5351A-B-GT U?
+L sbc_z80-rescue:Si5351A-B-GT-Oscillator U?
 U 1 1 5D255C0A
 P 8080 1505
 AR Path="/5CFABACD/5D255C0A" Ref="U?"  Part="1" 
@@ -35,7 +35,7 @@ F 9 "https://www.mouser.com/ProductDetail/634-SI5351A-B-GT" H 8080 1625 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_Small Y1
+L sbc_z80-rescue:Crystal_Small-Device Y1
 U 1 1 5D255C0B
 P 7050 1305
 F 0 "Y1" V 7004 1393 50  0000 L CNN
@@ -52,7 +52,7 @@ F 9 "https://www.mouser.com/ProductDetail/344-NX5032GA25MLNCD1" H 7004 1493 50  
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D255C0C
 P 8080 2005
 AR Path="/5D255C0C" Ref="#PWR?"  Part="1" 
@@ -68,7 +68,7 @@ F 3 "" H 8080 2005 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C15
+L sbc_z80-rescue:C_Small-Device C15
 U 1 1 5D255C0D
 P 3810 2495
 F 0 "C15" H 3902 2541 50  0000 L CNN
@@ -85,7 +85,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 3902 2641 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L sbc_z80-rescue:C_Small-Device C16
 U 1 1 5D255C0E
 P 4190 2495
 F 0 "C16" H 4282 2541 50  0000 L CNN
@@ -102,7 +102,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4282 2641 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D00E3D9
 P 4000 2635
 AR Path="/5D00E3D9" Ref="#PWR?"  Part="1" 
@@ -118,7 +118,7 @@ F 3 "" H 4000 2635 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R1
+L sbc_z80-rescue:R_Small-Device R1
 U 1 1 5D0168D6
 P 6530 1325
 F 0 "R1" H 6589 1371 50  0000 L CNN
@@ -135,7 +135,7 @@ F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 6589 1471 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
+L sbc_z80-rescue:R_Small-Device R2
 U 1 1 5D017809
 P 6730 1325
 F 0 "R2" H 6789 1371 50  0000 L CNN
@@ -198,7 +198,7 @@ Connection ~ 4000 2595
 Connection ~ 4000 2395
 Connection ~ 6630 1165
 $Comp
-L MCU_Microchip_ATtiny:ATtiny1614-SS U11
+L sbc_z80-rescue:ATtiny1614-SS-MCU_Microchip_ATtiny U11
 U 1 1 5D018E69
 P 5395 2105
 F 0 "U11" H 5390 2120 50  0000 C CNN
@@ -217,7 +217,7 @@ $EndComp
 Wire Wire Line
 	5395 1405 5395 1305
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D01D4B0
 P 5395 2805
 AR Path="/5D01D4B0" Ref="#PWR?"  Part="1" 
@@ -233,7 +233,7 @@ F 3 "" H 5395 2805 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L sbc_z80-rescue:Conn_01x03-Connector_Generic J?
 U 1 1 5D03DC78
 P 3490 1705
 AR Path="/5D03DC78" Ref="J?"  Part="1" 
@@ -252,7 +252,7 @@ Wire Wire Line
 Text Label 4030 1705 0    50   ~ 0
 TX
 $Comp
-L Device:R_Small R3
+L sbc_z80-rescue:R_Small-Device R3
 U 1 1 5D041A40
 P 4355 1705
 F 0 "R3" H 4414 1751 50  0000 L CNN
@@ -286,7 +286,7 @@ CLK_10_Mhz
 Text HLabel 9440 1925 2    50   Output ~ 0
 CLK_7_3728_Mhz
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D4AC760
 P 9095 3435
 AR Path="/5D4AC760" Ref="#PWR?"  Part="1" 
@@ -302,7 +302,7 @@ F 3 "" H 9095 3435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L sbc_z80-rescue:C_Small-Device C4
 U 1 1 5D1521F5
 P 1265 1045
 F 0 "C4" H 1357 1091 50  0000 L CNN
@@ -319,7 +319,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 1357 1191 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L sbc_z80-rescue:C_Small-Device C3
 U 1 1 5D152201
 P 2570 1040
 F 0 "C3" H 2662 1086 50  0000 L CNN
@@ -336,7 +336,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2662 1186 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D15A1D6
 P 1980 1390
 AR Path="/5D15A1D6" Ref="#PWR?"  Part="1" 
@@ -359,7 +359,7 @@ Wire Wire Line
 	2570 945  2785 945 
 Connection ~ 2570 945 
 $Comp
-L power:+3V3 #PWR03
+L sbc_z80-rescue:+3V3-power #PWR03
 U 1 1 5EFB1AF8
 P 2875 945
 F 0 "#PWR03" H 2875 795 50  0001 C CNN
@@ -370,7 +370,7 @@ F 3 "" H 2875 945 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR039
+L sbc_z80-rescue:+3V3-power #PWR039
 U 1 1 5EFB3E73
 P 4000 2295
 F 0 "#PWR039" H 4000 2145 50  0001 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 4000 2295 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR036
+L sbc_z80-rescue:+3V3-power #PWR036
 U 1 1 5EFB591E
 P 5395 1305
 F 0 "#PWR036" H 5395 1155 50  0001 C CNN
@@ -392,7 +392,7 @@ F 3 "" H 5395 1305 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR034
+L sbc_z80-rescue:+3V3-power #PWR034
 U 1 1 5EFB7DBF
 P 6630 1105
 F 0 "#PWR034" H 6630 955 50  0001 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 6630 1105 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR033
+L sbc_z80-rescue:+3V3-power #PWR033
 U 1 1 5EFB9342
 P 8080 905
 F 0 "#PWR033" H 8080 755 50  0001 C CNN
@@ -414,7 +414,7 @@ F 3 "" H 8080 905 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR040
+L sbc_z80-rescue:+5V-power #PWR040
 U 1 1 5EFBA650
 P 9095 2435
 F 0 "#PWR040" H 9095 2285 50  0001 C CNN
@@ -431,7 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	3895 1370 3895 1420
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5EFBCFCB
 P 3895 1420
 AR Path="/5EFBCFCB" Ref="#PWR?"  Part="1" 
@@ -447,7 +447,7 @@ F 3 "" H 3895 1420 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L sbc_z80-rescue:PWR_FLAG-power #FLG02
 U 1 1 5EFC0EF3
 P 2785 945
 F 0 "#FLG02" H 2785 1020 50  0001 C CNN
@@ -461,7 +461,7 @@ Connection ~ 2785 945
 Wire Wire Line
 	2785 945  2875 945 
 $Comp
-L power:PWR_FLAG #FLG01
+L sbc_z80-rescue:PWR_FLAG-power #FLG01
 U 1 1 5EFC1C86
 P 1120 945
 F 0 "#FLG01" H 1120 1020 50  0001 C CNN
@@ -473,7 +473,7 @@ F 3 "~" H 1120 945 50  0001 C CNN
 $EndComp
 Connection ~ 1120 945 
 $Comp
-L Device:C_Small C1
+L sbc_z80-rescue:C_Small-Device C1
 U 1 1 5F1175E3
 P 900 2280
 F 0 "C1" H 992 2326 50  0000 L CNN
@@ -490,7 +490,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 992 2426 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L sbc_z80-rescue:C_Small-Device C2
 U 1 1 5F1175EF
 P 1280 2280
 F 0 "C2" H 1372 2326 50  0000 L CNN
@@ -521,7 +521,7 @@ Wire Wire Line
 Connection ~ 1090 2380
 Connection ~ 1090 2180
 $Comp
-L power:+3V3 #PWR01
+L sbc_z80-rescue:+3V3-power #PWR01
 U 1 1 5F117603
 P 1090 2080
 F 0 "#PWR01" H 1090 1930 50  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 1090 2080 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR07
+L sbc_z80-rescue:+5V-power #PWR07
 U 1 1 5F1193D2
 P 1090 2465
 F 0 "#PWR07" H 1090 2315 50  0001 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 1090 2465 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR02
+L sbc_z80-rescue:+5V-power #PWR02
 U 1 1 5F57C70A
 P 715 945
 F 0 "#PWR02" H 715 795 50  0001 C CNN
@@ -564,7 +564,7 @@ Wire Wire Line
 Wire Wire Line
 	1475 1045 1475 945 
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5E77B1C8
 P 2570 1185
 AR Path="/5E77B1C8" Ref="#PWR?"  Part="1" 
@@ -582,7 +582,7 @@ $EndComp
 Wire Wire Line
 	2570 1140 2570 1185
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5E77C6D4
 P 1265 1190
 AR Path="/5E77C6D4" Ref="#PWR?"  Part="1" 
@@ -610,7 +610,7 @@ Wire Wire Line
 Wire Wire Line
 	8845 1305 8845 1080
 $Comp
-L 74xx:74HC04 U10
+L sbc_z80-rescue:74HC04-74xx U10
 U 1 1 5D29C9BF
 P 9145 1080
 F 0 "U10" H 9145 1397 50  0000 C CNN
@@ -621,7 +621,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9145 108
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U10
+L sbc_z80-rescue:74HC04-74xx U10
 U 2 1 5D2A53E5
 P 9140 1505
 F 0 "U10" H 9140 1822 50  0000 C CNN
@@ -632,7 +632,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9140 150
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U10
+L sbc_z80-rescue:74HC04-74xx U10
 U 3 1 5D2A9AD2
 P 9140 1925
 F 0 "U10" H 9140 2242 50  0000 C CNN
@@ -643,7 +643,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9140 192
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U10
+L sbc_z80-rescue:74HC04-74xx U10
 U 7 1 5D2AB645
 P 9095 2935
 F 0 "U10" H 9325 2981 50  0000 L CNN
@@ -654,7 +654,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9095 293
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U10
+L sbc_z80-rescue:74HC04-74xx U10
 U 6 1 5D2DEE4B
 P 7400 3175
 F 0 "U10" H 7400 3492 50  0000 C CNN
@@ -670,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	7010 3175 7010 3235
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D2E3B91
 P 7010 3235
 AR Path="/5D2E3B91" Ref="#PWR?"  Part="1" 
@@ -764,7 +764,7 @@ Wire Wire Line
 Text Label 6205 2005 0    50   ~ 0
 IRQ
 $Comp
-L Interface_Expansion:AS1115-BSST U?
+L sbc_z80-rescue:AS1115-BSST-Interface_Expansion U?
 U 1 1 5F4897F0
 P 2635 4585
 AR Path="/5F4897F0" Ref="U?"  Part="1" 
@@ -977,7 +977,7 @@ SCL
 Text Label 1655 4285 0    50   ~ 0
 SDA
 $Comp
-L power:GND #PWR?
+L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D361F7F
 P 2635 5785
 AR Path="/5D361F7F" Ref="#PWR?"  Part="1" 
@@ -995,7 +995,7 @@ $EndComp
 Wire Wire Line
 	2635 3385 2635 3330
 $Comp
-L power:+3V3 #PWR047
+L sbc_z80-rescue:+3V3-power #PWR047
 U 1 1 5D369131
 P 2635 3285
 F 0 "#PWR047" H 2635 3135 50  0001 C CNN
@@ -1006,7 +1006,7 @@ F 3 "" H 2635 3285 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R37
+L sbc_z80-rescue:R_Small-Device R37
 U 1 1 5D374E92
 P 1795 3605
 F 0 "R37" H 1854 3651 50  0000 L CNN

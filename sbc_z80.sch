@@ -256,7 +256,7 @@ Text Label 980  4360 2    50   ~ 0
 Text Label 955  4460 2    50   ~ 0
 ~NMI
 $Comp
-L Connector_Generic:Conn_02x40_Top_Bottom J1
+L sbc_z80-rescue:Conn_02x40_Top_Bottom-Connector_Generic J1
 U 1 1 5D153284
 P 1380 3860
 F 0 "J1" H 1430 5977 50  0000 C CNN
@@ -557,7 +557,7 @@ Wire Wire Line
 Wire Wire Line
 	10245 1065 9985 1065
 $Comp
-L power:GND #PWR0109
+L sbc_z80-rescue:GND-power #PWR0109
 U 1 1 5D49E54B
 P 10975 10160
 AR Path="/5D49E54B" Ref="#PWR0109"  Part="1" 
@@ -573,7 +573,7 @@ F 3 "" H 10975 10160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L sbc_z80-rescue:GND-power #PWR0110
 U 1 1 5D4A8DB8
 P 10945 3415
 AR Path="/5D4A8DB8" Ref="#PWR0110"  Part="1" 
@@ -915,7 +915,7 @@ Connection ~ 6290 990
 Wire Wire Line
 	6290 990  6340 990 
 $Comp
-L power:GND #PWR05
+L sbc_z80-rescue:GND-power #PWR05
 U 1 1 5D1F85E3
 P 3560 7095
 AR Path="/5D1F85E3" Ref="#PWR05"  Part="1" 
@@ -944,7 +944,7 @@ Connection ~ 6290 3540
 Wire Wire Line
 	6290 3540 6340 3540
 $Comp
-L power:GND #PWR04
+L sbc_z80-rescue:GND-power #PWR04
 U 1 1 5D26A105
 P 6290 3610
 AR Path="/5D26A105" Ref="#PWR04"  Part="1" 
@@ -1002,7 +1002,7 @@ A15
 Entry Wire Line
 	9985 1915 9885 1815
 $Comp
-L power:GND #PWR0101
+L sbc_z80-rescue:GND-power #PWR0101
 U 1 1 5D219963
 P 3530 3830
 AR Path="/5D219963" Ref="#PWR0101"  Part="1" 
@@ -1433,7 +1433,7 @@ $EndComp
 Wire Wire Line
 	5115 6705 5115 6595
 $Comp
-L Device:R_Small R4
+L sbc_z80-rescue:R_Small-Device R4
 U 1 1 5D4E6876
 P 5115 6495
 F 0 "R4" H 5174 6541 50  0000 L CNN
@@ -1446,7 +1446,7 @@ $EndComp
 Wire Wire Line
 	5115 6395 5115 6300
 $Comp
-L power:GND #PWR06
+L sbc_z80-rescue:GND-power #PWR06
 U 1 1 5D553583
 P 6295 6905
 AR Path="/5D553583" Ref="#PWR06"  Part="1" 
@@ -1462,7 +1462,7 @@ F 3 "" H 6295 6905 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D617C96
 P 825 9060
 AR Path="/5D65A6A0/5D617C96" Ref="C?"  Part="1" 
@@ -1481,7 +1481,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 917 9206 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D617CA2
 P 1205 9060
 AR Path="/5D65A6A0/5D617CA2" Ref="C?"  Part="1" 
@@ -1500,7 +1500,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 1297 9206 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L sbc_z80-rescue:GND-power #PWR09
 U 1 1 5D617CA8
 P 2490 9260
 AR Path="/5D617CA8" Ref="#PWR09"  Part="1" 
@@ -1526,7 +1526,7 @@ Wire Wire Line
 Connection ~ 1205 8960
 Connection ~ 1015 9160
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D64014B
 P 1490 9060
 AR Path="/5D65A6A0/5D64014B" Ref="C?"  Part="1" 
@@ -1545,7 +1545,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 1582 9206 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D640157
 P 1820 9060
 AR Path="/5D65A6A0/5D640157" Ref="C?"  Part="1" 
@@ -1573,7 +1573,7 @@ Wire Wire Line
 Connection ~ 1205 9160
 Connection ~ 1490 9160
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D700E5B
 P 2155 9060
 AR Path="/5D65A6A0/5D700E5B" Ref="C?"  Part="1" 
@@ -1592,7 +1592,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2247 9206 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D700E67
 P 2490 9060
 AR Path="/5D65A6A0/5D700E67" Ref="C?"  Part="1" 
@@ -1623,7 +1623,7 @@ Connection ~ 1820 9160
 Wire Wire Line
 	1820 9160 2155 9160
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D7A2EE6
 P 2820 9060
 AR Path="/5D65A6A0/5D7A2EE6" Ref="C?"  Part="1" 
@@ -1642,7 +1642,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2912 9206 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D7A2EF2
 P 3150 9060
 AR Path="/5D65A6A0/5D7A2EF2" Ref="C?"  Part="1" 
@@ -1663,7 +1663,7 @@ $EndComp
 Connection ~ 2820 8960
 Connection ~ 2820 9160
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D7A2F02
 P 3485 9060
 AR Path="/5D65A6A0/5D7A2F02" Ref="C?"  Part="1" 
@@ -1682,7 +1682,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 3577 9206 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D7A2F0E
 P 3865 9060
 AR Path="/5D65A6A0/5D7A2F0E" Ref="C?"  Part="1" 
@@ -1730,7 +1730,7 @@ Wire Wire Line
 Wire Wire Line
 	1620 1070 1620 1120
 $Comp
-L Device:R_Small R5
+L sbc_z80-rescue:R_Small-Device R5
 U 1 1 5D8BF465
 P 1405 920
 F 0 "R5" H 1464 966 50  0000 L CNN
@@ -1745,7 +1745,7 @@ Wire Wire Line
 Wire Wire Line
 	1620 920  1620 1020
 $Comp
-L Device:R_Small R6
+L sbc_z80-rescue:R_Small-Device R6
 U 1 1 5D96B0FA
 P 1405 1020
 F 0 "R6" H 1464 1066 50  0000 L CNN
@@ -1756,7 +1756,7 @@ F 3 "~" H 1405 1020 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R7
+L sbc_z80-rescue:R_Small-Device R7
 U 1 1 5D99669B
 P 1405 1120
 F 0 "R7" H 1464 1166 50  0000 L CNN
@@ -1767,7 +1767,7 @@ F 3 "~" H 1405 1120 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R8
+L sbc_z80-rescue:R_Small-Device R8
 U 1 1 5D9C1471
 P 1405 1220
 F 0 "R8" H 1464 1266 50  0000 L CNN
@@ -1809,7 +1809,7 @@ F 9 "Z84C2010AEG" H 9095 4795 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L sbc_z80-rescue:GND-power #PWR010
 U 1 1 5DD692E2
 P 10945 6945
 AR Path="/5DD692E2" Ref="#PWR010"  Part="1" 
@@ -1952,7 +1952,7 @@ Wire Wire Line
 Wire Wire Line
 	9985 5395 10245 5395
 $Comp
-L power:+5V #PWR0102
+L sbc_z80-rescue:+5V-power #PWR0102
 U 1 1 5EA3CB23
 P 3530 730
 F 0 "#PWR0102" H 3530 580 50  0001 C CNN
@@ -1963,7 +1963,7 @@ F 3 "" H 3530 730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L sbc_z80-rescue:+5V-power #PWR0103
 U 1 1 5EA91DB0
 P 6290 925
 F 0 "#PWR0103" H 6290 775 50  0001 C CNN
@@ -1974,7 +1974,7 @@ F 3 "" H 6290 925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0104
+L sbc_z80-rescue:+5V-power #PWR0104
 U 1 1 5EB10297
 P 10975 7510
 F 0 "#PWR0104" H 10975 7360 50  0001 C CNN
@@ -1985,7 +1985,7 @@ F 3 "" H 10975 7510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L sbc_z80-rescue:+5V-power #PWR0105
 U 1 1 5EB64918
 P 10945 765
 F 0 "#PWR0105" H 10945 615 50  0001 C CNN
@@ -1996,7 +1996,7 @@ F 3 "" H 10945 765 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0106
+L sbc_z80-rescue:+5V-power #PWR0106
 U 1 1 5EBE2BA4
 P 1760 1070
 F 0 "#PWR0106" H 1760 920 50  0001 C CNN
@@ -2009,7 +2009,7 @@ $EndComp
 Wire Wire Line
 	1620 1070 1760 1070
 $Comp
-L power:+5V #PWR0107
+L sbc_z80-rescue:+5V-power #PWR0107
 U 1 1 5ECB878E
 P 6295 4455
 F 0 "#PWR0107" H 6295 4305 50  0001 C CNN
@@ -2020,7 +2020,7 @@ F 3 "" H 6295 4455 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0108
+L sbc_z80-rescue:+5V-power #PWR0108
 U 1 1 5ED36D7D
 P 3560 4495
 F 0 "#PWR0108" H 3560 4345 50  0001 C CNN
@@ -2031,7 +2031,7 @@ F 3 "" H 3560 4495 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0112
+L sbc_z80-rescue:+5V-power #PWR0112
 U 1 1 5EE93A23
 P 10945 4195
 F 0 "#PWR0112" H 10945 4045 50  0001 C CNN
@@ -2048,7 +2048,7 @@ Text Label 2715 6695 0    50   ~ 0
 Wire Wire Line
 	2960 6695 2700 6695
 $Comp
-L power:+5V #PWR015
+L sbc_z80-rescue:+5V-power #PWR015
 U 1 1 5F1548B5
 P 5115 6300
 F 0 "#PWR015" H 5115 6150 50  0001 C CNN
@@ -2063,7 +2063,7 @@ Wire Wire Line
 Wire Wire Line
 	1865 3660 1865 3610
 $Comp
-L power:+5V #PWR013
+L sbc_z80-rescue:+5V-power #PWR013
 U 1 1 5F1D6547
 P 2130 3610
 F 0 "#PWR013" H 2130 3460 50  0001 C CNN
@@ -2076,7 +2076,7 @@ $EndComp
 Wire Wire Line
 	1865 3610 2130 3610
 $Comp
-L power:GND #PWR012
+L sbc_z80-rescue:GND-power #PWR012
 U 1 1 5F35F515
 P 1580 3560
 AR Path="/5F35F515" Ref="#PWR012"  Part="1" 
@@ -2098,7 +2098,7 @@ Wire Wire Line
 Wire Wire Line
 	785  3625 575  3625
 $Comp
-L power:+5V #PWR014
+L sbc_z80-rescue:+5V-power #PWR014
 U 1 1 5F49CFDC
 P 575 3625
 F 0 "#PWR014" H 575 3475 50  0001 C CNN
@@ -2109,7 +2109,7 @@ F 3 "" H 575 3625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L sbc_z80-rescue:GND-power #PWR011
 U 1 1 5F4F60E5
 P 1080 3560
 AR Path="/5F4F60E5" Ref="#PWR011"  Part="1" 
@@ -2126,7 +2126,7 @@ F 3 "" H 1080 3560 50  0001 C CNN
 $EndComp
 Text Label 7055 1690 2    50   ~ 0
 ~PIO
-Text Label 7050 1490 2    50   ~ 0
+Text Label 7050 1590 2    50   ~ 0
 ~CTC
 Text Label 7040 1390 2    50   ~ 0
 ~SIO
@@ -2153,7 +2153,7 @@ Wire Wire Line
 Text Label 7070 1190 2    50   ~ 0
 ~ROM
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L sbc_z80-rescue:Conn_01x06-Connector_Generic J4
 U 1 1 5D23E8B7
 P 14060 1240
 F 0 "J4" H 14140 1232 50  0000 L CNN
@@ -2164,7 +2164,7 @@ F 3 "~" H 14060 1240 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R12
+L sbc_z80-rescue:R_Small-Device R12
 U 1 1 5D18AFC7
 P 13425 1440
 F 0 "R12" V 13385 1515 50  0000 L CNN
@@ -2175,7 +2175,7 @@ F 3 "~" H 13425 1440 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R10
+L sbc_z80-rescue:R_Small-Device R10
 U 1 1 5D21F1A1
 P 13420 1140
 F 0 "R10" V 13350 1065 50  0000 L CNN
@@ -2186,7 +2186,7 @@ F 3 "~" H 13420 1140 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R14
+L sbc_z80-rescue:R_Small-Device R14
 U 1 1 5D2507BC
 P 13760 1720
 F 0 "R14" H 13819 1766 50  0000 L CNN
@@ -2201,7 +2201,7 @@ NoConn ~ 11645 1565
 Wire Wire Line
 	13860 1540 13760 1540
 $Comp
-L Device:R_Small R11
+L sbc_z80-rescue:R_Small-Device R11
 U 1 1 5D4A0754
 P 13425 1340
 F 0 "R11" V 13490 1265 50  0000 L CNN
@@ -2232,7 +2232,7 @@ Text Label 13140 1540 0    50   ~ 0
 Wire Wire Line
 	13760 1620 13760 1540
 $Comp
-L power:GND #PWR019
+L sbc_z80-rescue:GND-power #PWR019
 U 1 1 5DA62F94
 P 13760 1820
 AR Path="/5DA62F94" Ref="#PWR019"  Part="1" 
@@ -2255,7 +2255,7 @@ Wire Wire Line
 Text Label 13135 1140 0    50   ~ 0
 ~RTSA
 $Comp
-L power:GND #PWR018
+L sbc_z80-rescue:GND-power #PWR018
 U 1 1 5DBFE59F
 P 13860 1040
 AR Path="/5DBFE59F" Ref="#PWR018"  Part="1" 
@@ -2285,7 +2285,7 @@ Connection ~ 13600 1340
 Wire Wire Line
 	13600 1340 13860 1340
 $Comp
-L Device:R_Small R9
+L sbc_z80-rescue:R_Small-Device R9
 U 1 1 5DDD7992
 P 13600 855
 F 0 "R9" H 13659 901 50  0000 L CNN
@@ -2296,7 +2296,7 @@ F 3 "~" H 13600 855 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR017
+L sbc_z80-rescue:+5V-power #PWR017
 U 1 1 5DE0B950
 P 13600 755
 F 0 "#PWR017" H 13600 605 50  0001 C CNN
@@ -2307,7 +2307,7 @@ F 3 "" H 13600 755 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J5
+L sbc_z80-rescue:Conn_01x06-Connector_Generic J5
 U 1 1 5DEDF236
 P 14055 2860
 F 0 "J5" H 14135 2852 50  0000 L CNN
@@ -2318,7 +2318,7 @@ F 3 "~" H 14055 2860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R18
+L sbc_z80-rescue:R_Small-Device R18
 U 1 1 5DEDF23C
 P 13420 3060
 F 0 "R18" V 13385 3135 50  0000 L CNN
@@ -2329,7 +2329,7 @@ F 3 "~" H 13420 3060 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R19
+L sbc_z80-rescue:R_Small-Device R19
 U 1 1 5DEDF242
 P 13415 3160
 F 0 "R19" V 13380 3240 50  0000 L CNN
@@ -2340,7 +2340,7 @@ F 3 "~" H 13415 3160 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R16
+L sbc_z80-rescue:R_Small-Device R16
 U 1 1 5DEDF248
 P 13415 2760
 F 0 "R16" V 13340 2685 50  0000 L CNN
@@ -2351,7 +2351,7 @@ F 3 "~" H 13415 2760 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R20
+L sbc_z80-rescue:R_Small-Device R20
 U 1 1 5DEDF24E
 P 13755 3340
 F 0 "R20" H 13814 3386 50  0000 L CNN
@@ -2364,7 +2364,7 @@ $EndComp
 Wire Wire Line
 	13855 3160 13755 3160
 $Comp
-L Device:R_Small R17
+L sbc_z80-rescue:R_Small-Device R17
 U 1 1 5DEDF255
 P 13420 2960
 F 0 "R17" V 13485 2885 50  0000 L CNN
@@ -2395,7 +2395,7 @@ Text Label 13135 3160 0    50   ~ 0
 Wire Wire Line
 	13755 3240 13755 3160
 $Comp
-L power:GND #PWR022
+L sbc_z80-rescue:GND-power #PWR022
 U 1 1 5DEDF265
 P 13755 3440
 AR Path="/5DEDF265" Ref="#PWR022"  Part="1" 
@@ -2418,7 +2418,7 @@ Wire Wire Line
 Text Label 13130 2760 0    50   ~ 0
 ~RTSB
 $Comp
-L power:GND #PWR021
+L sbc_z80-rescue:GND-power #PWR021
 U 1 1 5DEDF26F
 P 13855 2660
 AR Path="/5DEDF26F" Ref="#PWR021"  Part="1" 
@@ -2448,7 +2448,7 @@ Connection ~ 13595 2960
 Wire Wire Line
 	13595 2960 13855 2960
 $Comp
-L Device:R_Small R15
+L sbc_z80-rescue:R_Small-Device R15
 U 1 1 5DEDF27D
 P 13595 2475
 F 0 "R15" H 13654 2521 50  0000 L CNN
@@ -2459,7 +2459,7 @@ F 3 "~" H 13595 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR020
+L sbc_z80-rescue:+5V-power #PWR020
 U 1 1 5DEDF283
 P 13595 2375
 F 0 "#PWR020" H 13595 2225 50  0001 C CNN
@@ -2474,7 +2474,7 @@ NoConn ~ 11645 2665
 NoConn ~ 11645 1915
 NoConn ~ 11645 3015
 $Comp
-L power:GND #PWR023
+L sbc_z80-rescue:GND-power #PWR023
 U 1 1 5E096305
 P 11645 2015
 AR Path="/5E096305" Ref="#PWR023"  Part="1" 
@@ -2490,7 +2490,7 @@ F 3 "" H 11645 2015 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR024
+L sbc_z80-rescue:GND-power #PWR024
 U 1 1 5E104A5B
 P 11645 3115
 AR Path="/5E104A5B" Ref="#PWR024"  Part="1" 
@@ -2665,7 +2665,7 @@ Wire Wire Line
 	5740 1490 5480 1490
 Text Label 5525 1490 0    50   ~ 0
 TDI
-Text Label 7050 1590 2    50   ~ 0
+Text Label 7050 1490 2    50   ~ 0
 TDO
 Entry Wire Line
 	7200 1390 7100 1490
@@ -2684,7 +2684,7 @@ Wire Wire Line
 Text Label 5495 2840 0    50   ~ 0
 CLK_F
 $Comp
-L Connector:AVR-JTAG-10 J?
+L sbc_z80-rescue:AVR-JTAG-10-Connector J?
 U 1 1 5D1C705F
 P 8140 1835
 AR Path="/5D0F9837/5D1C705F" Ref="J?"  Part="1" 
@@ -2699,7 +2699,7 @@ F 3 "~" H 6865 1285 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L sbc_z80-rescue:GND-power #PWR028
 U 1 1 5D1C7065
 P 8140 2435
 AR Path="/5D1C7065" Ref="#PWR028"  Part="1" 
@@ -2717,7 +2717,7 @@ F 3 "" H 8140 2435 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L sbc_z80-rescue:GND-power #PWR025
 U 1 1 5D1C706B
 P 8510 860
 AR Path="/5D1C706B" Ref="#PWR025"  Part="1" 
@@ -2753,7 +2753,7 @@ Wire Wire Line
 	8640 1735 8790 1735
 Connection ~ 8790 1735
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5D1C7095
 P 8790 1055
 AR Path="/5D0F9837/5D1C7095" Ref="R?"  Part="1" 
@@ -2772,7 +2772,7 @@ Wire Wire Line
 Wire Wire Line
 	8790 1155 8790 1735
 $Comp
-L power:+5V #PWR026
+L sbc_z80-rescue:+5V-power #PWR026
 U 1 1 5D2D1F21
 P 8040 1025
 F 0 "#PWR026" H 8040 875 50  0001 C CNN
@@ -2801,7 +2801,7 @@ TMS
 Text Label 9505 1735 2    50   ~ 0
 TCK
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5DBC7CAA
 P 9040 1375
 AR Path="/5D0F9837/5DBC7CAA" Ref="R?"  Part="1" 
@@ -2816,7 +2816,7 @@ F 3 "~" H 9040 1375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5DC500B6
 P 9150 1375
 AR Path="/5D0F9837/5DC500B6" Ref="R?"  Part="1" 
@@ -2831,7 +2831,7 @@ F 3 "~" H 9150 1375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5DCD773D
 P 9260 1375
 AR Path="/5D0F9837/5DCD773D" Ref="R?"  Part="1" 
@@ -2876,7 +2876,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 1270 9150 1180
 $Comp
-L power:+5V #PWR027
+L sbc_z80-rescue:+5V-power #PWR027
 U 1 1 5E1D0EA9
 P 9150 1180
 F 0 "#PWR027" H 9150 1030 50  0001 C CNN
@@ -2899,7 +2899,7 @@ Entry Wire Line
 Wire Wire Line
 	11645 2465 11905 2465
 $Comp
-L Power_Supervisor:MIC811LUY U12
+L sbc_z80-rescue:MIC811LUY-Power_Supervisor U12
 U 1 1 5E42170A
 P 1505 7340
 F 0 "U12" H 1235 7585 50  0000 L CNN
@@ -2910,7 +2910,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf" H 1155 6640 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR029
+L sbc_z80-rescue:+5V-power #PWR029
 U 1 1 5E467EB5
 P 1505 7040
 F 0 "#PWR029" H 1505 6890 50  0001 C CNN
@@ -2921,7 +2921,7 @@ F 3 "" H 1505 7040 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR030
+L sbc_z80-rescue:GND-power #PWR030
 U 1 1 5E4F1E9C
 P 1505 7640
 AR Path="/5E4F1E9C" Ref="#PWR030"  Part="1" 
@@ -2945,7 +2945,7 @@ Wire Wire Line
 Wire Wire Line
 	880  7340 880  7420
 $Comp
-L Switch:SW_Push SW1
+L sbc_z80-rescue:SW_Push-Switch SW1
 U 1 1 5E64E2F3
 P 880 7620
 F 0 "SW1" V 926 7572 50  0000 R CNN
@@ -2956,7 +2956,7 @@ F 3 "~" H 880 7820 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR031
+L sbc_z80-rescue:GND-power #PWR031
 U 1 1 5E64F838
 P 880 7820
 AR Path="/5E64F838" Ref="#PWR031"  Part="1" 
@@ -2976,7 +2976,7 @@ Wire Wire Line
 Wire Wire Line
 	2490 8955 2490 8855
 $Comp
-L power:+5V #PWR0111
+L sbc_z80-rescue:+5V-power #PWR0111
 U 1 1 5EDEA98F
 P 2490 8855
 F 0 "#PWR0111" H 2490 8705 50  0001 C CNN
@@ -3200,7 +3200,7 @@ A16
 Text Notes 6035 5655 0    50   ~ 0
 EEPROM 128Kx8
 $Comp
-L Device:R_Small R13
+L sbc_z80-rescue:R_Small-Device R13
 U 1 1 5D18AFCD
 P 13420 1540
 F 0 "R13" V 13385 1620 50  0000 L CNN
@@ -3211,7 +3211,7 @@ F 3 "~" H 13420 1540 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACAC D?
+L sbc_z80-rescue:LED_Dual_ACAC-Device D?
 U 1 1 5D3855E3
 P 6670 7925
 AR Path="/5D65A6A0/5D3855E3" Ref="D?"  Part="1" 
@@ -3224,7 +3224,7 @@ F 3 "https://www.mouser.com/datasheet/2/348/sml-d22-e-1508165.pdf" H 6700 7925 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5D3855EF
 P 7280 7825
 AR Path="/5D65A6A0/5D3855EF" Ref="R?"  Part="1" 
@@ -3243,7 +3243,7 @@ F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 7339 7971 50  00
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L sbc_z80-rescue:R_Small-Device R?
 U 1 1 5D3855FB
 P 7285 8025
 AR Path="/5D65A6A0/5D3855FB" Ref="R?"  Part="1" 
@@ -3279,7 +3279,7 @@ Connection ~ 7465 7925
 Wire Wire Line
 	7465 7925 7465 8025
 $Comp
-L power:+5V #PWR?
+L sbc_z80-rescue:+5V-power #PWR?
 U 1 1 5D38560A
 P 7620 7870
 AR Path="/5D65A6A0/5D38560A" Ref="#PWR?"  Part="1" 
@@ -3292,7 +3292,7 @@ F 3 "" H 7620 7870 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U?
+L sbc_z80-rescue:74HC04-74xx U?
 U 4 1 5D385610
 P 6070 8025
 AR Path="/5D65A6A0/5D385610" Ref="U?"  Part="4" 
@@ -3305,7 +3305,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6070 802
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U?
+L sbc_z80-rescue:74HC04-74xx U?
 U 5 1 5D385616
 P 5325 8025
 AR Path="/5D65A6A0/5D385616" Ref="U?"  Part="5" 
@@ -3408,50 +3408,6 @@ Text Label 7075 9740 2    50   ~ 0
 D6
 Text Label 7075 9840 2    50   ~ 0
 D7
-$Comp
-L Switch:SW_DIP_x06 SW2
-U 1 1 5F854DDB
-P 8070 4035
-F 0 "SW2" H 8070 4602 50  0000 C CNN
-F 1 "SW_DIP_x06" H 8070 4511 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin" H 8070 4035 50  0001 C CNN
-F 3 "~" H 8070 4035 50  0001 C CNN
-	1    8070 4035
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7770 3735 7770 3835
-Connection ~ 7770 3835
-Wire Wire Line
-	7770 3835 7770 3935
-Connection ~ 7770 3935
-Wire Wire Line
-	7770 3935 7770 4035
-Connection ~ 7770 4035
-Wire Wire Line
-	7770 4035 7770 4135
-Connection ~ 7770 4135
-Wire Wire Line
-	7770 4135 7770 4235
-Connection ~ 7770 4235
-Wire Wire Line
-	7770 4235 7770 4370
-$Comp
-L power:GND #PWR046
-U 1 1 5F9AA50C
-P 7770 4370
-AR Path="/5F9AA50C" Ref="#PWR046"  Part="1" 
-AR Path="/5CB63856/5F9AA50C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5F9AA50C" Ref="#PWR?"  Part="1" 
-AR Path="/5CFABACD/5F9AA50C" Ref="#PWR?"  Part="1" 
-AR Path="/5CF9C1ED/5F9AA50C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR046" H 7770 4120 50  0001 C CNN
-F 1 "GND" H 7775 4197 50  0000 C CNN
-F 2 "" H 7770 4370 50  0001 C CNN
-F 3 "" H 7770 4370 50  0001 C CNN
-	1    7770 4370
-	1    0    0    -1  
-$EndComp
 Text Label 7070 2190 2    50   ~ 0
 SW2_0
 Text Label 7080 2290 2    50   ~ 0
@@ -3464,180 +3420,6 @@ Text Label 7075 2590 2    50   ~ 0
 SW2_4
 Text Label 7075 2690 2    50   ~ 0
 SW2_5
-Entry Wire Line
-	9295 4135 9195 4235
-Entry Wire Line
-	9295 4035 9195 4135
-Entry Wire Line
-	9295 3735 9195 3835
-Entry Wire Line
-	9295 3835 9195 3935
-Entry Wire Line
-	9295 3935 9195 4035
-Entry Wire Line
-	9295 3635 9195 3735
-Text Label 9165 3735 2    50   ~ 0
-SW2_0
-Text Label 9175 3835 2    50   ~ 0
-SW2_1
-Text Label 9170 3935 2    50   ~ 0
-SW2_2
-Text Label 9170 4035 2    50   ~ 0
-SW2_3
-Text Label 9170 4135 2    50   ~ 0
-SW2_4
-Text Label 9170 4235 2    50   ~ 0
-SW2_5
-Wire Wire Line
-	8370 3935 8610 3935
-Wire Wire Line
-	8370 4035 8710 4035
-Wire Wire Line
-	8370 3735 8410 3735
-Wire Wire Line
-	8410 3350 8410 3235
-Wire Wire Line
-	8410 3235 8510 3235
-Wire Wire Line
-	8510 3350 8510 3235
-Wire Wire Line
-	8710 3350 8710 3235
-Wire Wire Line
-	8610 3350 8610 3235
-Wire Wire Line
-	8610 3235 8660 3235
-Wire Wire Line
-	8660 3235 8660 3095
-Connection ~ 8610 3235
-Connection ~ 8510 3235
-$Comp
-L power:+5V #PWR045
-U 1 1 6040DBDD
-P 8660 3095
-F 0 "#PWR045" H 8660 2945 50  0001 C CNN
-F 1 "+5V" H 8675 3268 50  0000 C CNN
-F 2 "" H 8660 3095 50  0001 C CNN
-F 3 "" H 8660 3095 50  0001 C CNN
-	1    8660 3095
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R31
-U 1 1 6040DBE3
-P 8410 3450
-F 0 "R31" H 8420 3310 50  0000 L CNN
-F 1 "10K" V 8405 3380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8410 3450 50  0001 C CNN
-F 3 "~" H 8410 3450 50  0001 C CNN
-	1    8410 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R32
-U 1 1 6040DBE9
-P 8510 3450
-F 0 "R32" H 8510 3310 50  0000 L CNN
-F 1 "10K" V 8505 3380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8510 3450 50  0001 C CNN
-F 3 "~" H 8510 3450 50  0001 C CNN
-	1    8510 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R33
-U 1 1 6040DBEF
-P 8610 3450
-F 0 "R33" H 8610 3310 50  0000 L CNN
-F 1 "10K" V 8605 3375 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8610 3450 50  0001 C CNN
-F 3 "~" H 8610 3450 50  0001 C CNN
-	1    8610 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R34
-U 1 1 6040DBF5
-P 8710 3450
-F 0 "R34" H 8710 3310 50  0000 L CNN
-F 1 "10K" V 8705 3380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8710 3450 50  0001 C CNN
-F 3 "~" H 8710 3450 50  0001 C CNN
-	1    8710 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8915 3350 8915 3235
-Wire Wire Line
-	8815 3350 8815 3235
-$Comp
-L Device:R_Small R35
-U 1 1 604812EA
-P 8815 3450
-F 0 "R35" H 8815 3310 50  0000 L CNN
-F 1 "10K" V 8810 3375 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8815 3450 50  0001 C CNN
-F 3 "~" H 8815 3450 50  0001 C CNN
-	1    8815 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R36
-U 1 1 604812F0
-P 8915 3450
-F 0 "R36" H 8915 3310 50  0000 L CNN
-F 1 "10K" V 8915 3380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8915 3450 50  0001 C CNN
-F 3 "~" H 8915 3450 50  0001 C CNN
-	1    8915 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8710 3235 8815 3235
-Connection ~ 8710 3235
-Connection ~ 8815 3235
-Wire Wire Line
-	8815 3235 8915 3235
-Connection ~ 8660 3235
-Wire Wire Line
-	8660 3235 8710 3235
-Wire Wire Line
-	8510 3235 8610 3235
-Wire Wire Line
-	8410 3550 8410 3735
-Connection ~ 8410 3735
-Wire Wire Line
-	8410 3735 9195 3735
-Wire Wire Line
-	8370 3835 8510 3835
-Wire Wire Line
-	8510 3550 8510 3835
-Connection ~ 8510 3835
-Wire Wire Line
-	8510 3835 9195 3835
-Wire Wire Line
-	8610 3550 8610 3935
-Connection ~ 8610 3935
-Wire Wire Line
-	8610 3935 9195 3935
-Wire Wire Line
-	8710 3550 8710 4035
-Connection ~ 8710 4035
-Wire Wire Line
-	8710 4035 9195 4035
-Wire Wire Line
-	8815 3550 8815 4135
-Wire Wire Line
-	8370 4135 8815 4135
-Connection ~ 8815 4135
-Wire Wire Line
-	8815 4135 9195 4135
-Wire Wire Line
-	8915 3550 8915 4235
-Wire Wire Line
-	8370 4235 8915 4235
-Connection ~ 8915 4235
-Wire Wire Line
-	8915 4235 9195 4235
 Wire Wire Line
 	6880 9935 7140 9935
 Entry Wire Line
@@ -3770,7 +3552,7 @@ PA6
 Text Label 13325 5505 0    50   ~ 0
 PA7
 $Comp
-L power:GND #PWR0128
+L sbc_z80-rescue:GND-power #PWR0128
 U 1 1 5E57AE5A
 P 14090 4595
 AR Path="/5E57AE5A" Ref="#PWR0128"  Part="1" 
@@ -3796,7 +3578,7 @@ Wire Wire Line
 Wire Wire Line
 	14015 4805 14090 4805
 $Comp
-L power:+5V #PWR0127
+L sbc_z80-rescue:+5V-power #PWR0127
 U 1 1 5E42BEC9
 P 14105 6005
 F 0 "#PWR0127" H 14105 5855 50  0001 C CNN
@@ -3811,7 +3593,7 @@ Wire Wire Line
 Wire Wire Line
 	14015 5905 14105 5905
 $Comp
-L power:GND #PWR0126
+L sbc_z80-rescue:GND-power #PWR0126
 U 1 1 5E385E89
 P 13440 6015
 AR Path="/5E385E89" Ref="#PWR0126"  Part="1" 
@@ -3837,7 +3619,7 @@ Wire Wire Line
 Wire Wire Line
 	13515 5805 13440 5805
 $Comp
-L power:+5V #PWR0125
+L sbc_z80-rescue:+5V-power #PWR0125
 U 1 1 5E1E65D9
 P 13515 4605
 F 0 "#PWR0125" H 13515 4455 50  0001 C CNN
@@ -3898,7 +3680,7 @@ Wire Wire Line
 Wire Wire Line
 	13765 8040 13505 8040
 $Comp
-L power:+5V #PWR0124
+L sbc_z80-rescue:+5V-power #PWR0124
 U 1 1 5E050F6D
 P 13675 7840
 F 0 "#PWR0124" H 13675 7690 50  0001 C CNN
@@ -3913,7 +3695,7 @@ Wire Wire Line
 Wire Wire Line
 	13765 7940 13675 7940
 $Comp
-L power:GND #PWR0123
+L sbc_z80-rescue:GND-power #PWR0123
 U 1 1 5DECAE17
 P 13675 8910
 AR Path="/5DECAE17" Ref="#PWR0123"  Part="1" 
@@ -3945,7 +3727,7 @@ Wire Wire Line
 Wire Wire Line
 	14735 8515 15000 8515
 $Comp
-L Device:R_Small R28
+L sbc_z80-rescue:R_Small-Device R28
 U 1 1 5D20DD3A
 P 15100 8615
 F 0 "R28" V 15159 8661 50  0000 L CNN
@@ -3956,7 +3738,7 @@ F 3 "~" H 15100 8615 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R27
+L sbc_z80-rescue:R_Small-Device R27
 U 1 1 5D20DD39
 P 15100 8515
 F 0 "R27" V 15159 8561 50  0000 L CNN
@@ -3967,7 +3749,7 @@ F 3 "~" H 15100 8515 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R26
+L sbc_z80-rescue:R_Small-Device R26
 U 1 1 5D20DD38
 P 15100 8415
 F 0 "R26" V 15159 8461 50  0000 L CNN
@@ -3978,7 +3760,7 @@ F 3 "~" H 15100 8415 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R25
+L sbc_z80-rescue:R_Small-Device R25
 U 1 1 5D20DD37
 P 15100 8315
 F 0 "R25" V 15159 8361 50  0000 L CNN
@@ -3989,7 +3771,7 @@ F 3 "~" H 15100 8315 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0122
+L sbc_z80-rescue:+5V-power #PWR0122
 U 1 1 5D20DD36
 P 15455 8465
 F 0 "#PWR0122" H 15455 8315 50  0001 C CNN
@@ -4033,7 +3815,7 @@ Entry Wire Line
 Entry Wire Line
 	14635 8315 14735 8415
 $Comp
-L Connector_Generic:Conn_01x10 J6
+L sbc_z80-rescue:Conn_01x10-Connector_Generic J6
 U 1 1 5E6D922F
 P 13965 8340
 F 0 "J6" H 14045 8332 50  0000 L CNN
@@ -4044,7 +3826,7 @@ F 3 "~" H 13965 8340 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even J3
+L sbc_z80-rescue:Conn_02x13_Odd_Even-Connector_Generic J3
 U 1 1 5E828563
 P 13715 5305
 F 0 "J3" H 13765 5360 50  0000 C CNN
@@ -4054,66 +3836,284 @@ F 3 "~" H 13715 5305 50  0001 C CNN
 	1    13715 5305
 	1    0    0    -1  
 $EndComp
+Text Label 9170 4235 2    50   ~ 0
+SW2_5
+Text Label 9170 4135 2    50   ~ 0
+SW2_4
+Text Label 9170 4035 2    50   ~ 0
+SW2_3
+Text Label 9170 3935 2    50   ~ 0
+SW2_2
+Text Label 9175 3835 2    50   ~ 0
+SW2_1
+Text Label 9165 3735 2    50   ~ 0
+SW2_0
+Entry Wire Line
+	9295 3635 9195 3735
+Entry Wire Line
+	9295 3935 9195 4035
+Entry Wire Line
+	9295 3835 9195 3935
+Entry Wire Line
+	9295 3735 9195 3835
+Entry Wire Line
+	9295 4035 9195 4135
+Entry Wire Line
+	9295 4135 9195 4235
+$Comp
+L sbc_z80-rescue:GND-power #PWR046
+U 1 1 5F9AA50C
+P 7770 4370
+AR Path="/5F9AA50C" Ref="#PWR046"  Part="1" 
+AR Path="/5CB63856/5F9AA50C" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5F9AA50C" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5F9AA50C" Ref="#PWR?"  Part="1" 
+AR Path="/5CF9C1ED/5F9AA50C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR046" H 7770 4120 50  0001 C CNN
+F 1 "GND" H 7775 4197 50  0000 C CNN
+F 2 "" H 7770 4370 50  0001 C CNN
+F 3 "" H 7770 4370 50  0001 C CNN
+	1    7770 4370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7770 4235 7770 4370
+Connection ~ 7770 4235
+Wire Wire Line
+	7770 4135 7770 4235
+Connection ~ 7770 4135
+Wire Wire Line
+	7770 4035 7770 4135
+Connection ~ 7770 4035
+Wire Wire Line
+	7770 3935 7770 4035
+Connection ~ 7770 3935
+Wire Wire Line
+	7770 3835 7770 3935
+Connection ~ 7770 3835
+Wire Wire Line
+	7770 3735 7770 3835
+$Comp
+L sbc_z80-rescue:SW_DIP_x06-Switch SW2
+U 1 1 5F854DDB
+P 8070 4035
+F 0 "SW2" H 8070 4602 50  0000 C CNN
+F 1 "SW_DIP_x06" H 8070 4511 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin" H 8070 4035 50  0001 C CNN
+F 3 "~" H 8070 4035 50  0001 C CNN
+	1    8070 4035
+	1    0    0    -1  
+$EndComp
+Connection ~ 8915 4235
+Wire Wire Line
+	8915 4235 9195 4235
+Wire Wire Line
+	8370 4235 8915 4235
+Connection ~ 8815 4135
+Wire Wire Line
+	8815 4135 9195 4135
+Wire Wire Line
+	8370 4135 8815 4135
+Connection ~ 8710 4035
+Connection ~ 8610 3935
+Connection ~ 8510 3835
+Wire Wire Line
+	8510 3835 9195 3835
+Wire Wire Line
+	8370 3835 8510 3835
+Connection ~ 8410 3735
+Wire Wire Line
+	8410 3735 9195 3735
+Wire Wire Line
+	8370 3735 8410 3735
+Wire Wire Line
+	8710 4035 9195 4035
+Wire Wire Line
+	8370 4035 8710 4035
+Wire Wire Line
+	8610 3935 9195 3935
+Wire Wire Line
+	8370 3935 8610 3935
+Wire Bus Line
+	14635 8170 14635 8565
+Wire Bus Line
+	13405 7830 13405 8795
+Wire Bus Line
+	13155 4660 13155 5705
+Wire Bus Line
+	14375 4765 14375 5805
+Wire Bus Line
+	9295 3595 9295 4240
+Wire Bus Line
+	7240 8985 7240 9940
+Wire Bus Line
+	12005 4325 12005 6645
 Wire Bus Line
 	12035 8670 12035 9730
 Wire Bus Line
+	12035 7640 12035 8665
+Wire Bus Line
 	9630 1460 9630 2225
+Wire Bus Line
+	12005 905  12005 2930
 Wire Bus Line
 	13025 2650 13025 3160
 Wire Bus Line
 	13030 1030 13030 1540
 Wire Bus Line
+	7200 1005 7200 2700
+Wire Bus Line
 	4825 9070 4825 9455
 Wire Bus Line
-	940  775  940  1170
-Wire Bus Line
-	2600 6165 2600 6845
-Wire Bus Line
-	9295 3595 9295 4240
-Wire Bus Line
-	14635 8170 14635 8565
-Wire Bus Line
-	13155 4660 13155 5705
-Wire Bus Line
-	7240 8985 7240 9940
-Wire Bus Line
-	12035 7640 12035 8665
-Wire Bus Line
-	12005 905  12005 2930
-Wire Bus Line
-	7205 4485 7205 5310
-Wire Bus Line
-	4520 4540 4520 5355
-Wire Bus Line
-	710  2625 710  3415
-Wire Bus Line
-	14375 4765 14375 5805
-Wire Bus Line
-	710  3660 710  5760
+	9885 4315 9885 6625
 Wire Bus Line
 	4740 935  4740 3385
 Wire Bus Line
-	7200 1005 7200 2700
+	2600 6165 2600 6845
+Wire Bus Line
+	2370 910  2370 3460
 Wire Bus Line
 	5380 1045 5380 2845
 Wire Bus Line
-	13405 7830 13405 8795
-Wire Bus Line
-	9885 4315 9885 6625
+	7205 4485 7205 5310
 Wire Bus Line
 	5335 4510 5335 6605
 Wire Bus Line
 	2600 4570 2600 6160
 Wire Bus Line
-	9915 7655 9915 9790
-Wire Bus Line
-	1950 3660 1950 5760
-Wire Bus Line
-	1950 1815 1950 3415
+	4520 4540 4520 5355
 Wire Bus Line
 	9885 925  9885 3155
 Wire Bus Line
-	2370 910  2370 3460
+	9915 7655 9915 9790
 Wire Bus Line
-	12005 4325 12005 6645
+	940  775  940  1170
+Wire Bus Line
+	1950 3660 1950 5760
+Wire Bus Line
+	710  2625 710  3415
+Wire Bus Line
+	710  3660 710  5760
+Wire Bus Line
+	1950 1815 1950 3415
+Wire Wire Line
+	8915 3550 8915 4235
+Wire Wire Line
+	8815 3550 8815 4135
+Wire Wire Line
+	8710 3550 8710 4035
+Wire Wire Line
+	8610 3550 8610 3935
+Wire Wire Line
+	8510 3550 8510 3835
+Wire Wire Line
+	8410 3550 8410 3735
+Wire Wire Line
+	8510 3235 8610 3235
+Wire Wire Line
+	8660 3235 8710 3235
+Connection ~ 8660 3235
+Wire Wire Line
+	8815 3235 8915 3235
+Connection ~ 8815 3235
+Connection ~ 8710 3235
+Wire Wire Line
+	8710 3235 8815 3235
+$Comp
+L sbc_z80-rescue:R_Small-Device R36
+U 1 1 604812F0
+P 8915 3450
+F 0 "R36" H 8915 3310 50  0000 L CNN
+F 1 "10K" V 8915 3380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8915 3450 50  0001 C CNN
+F 3 "~" H 8915 3450 50  0001 C CNN
+	1    8915 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sbc_z80-rescue:R_Small-Device R35
+U 1 1 604812EA
+P 8815 3450
+F 0 "R35" H 8815 3310 50  0000 L CNN
+F 1 "10K" V 8810 3375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8815 3450 50  0001 C CNN
+F 3 "~" H 8815 3450 50  0001 C CNN
+	1    8815 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8815 3350 8815 3235
+Wire Wire Line
+	8915 3350 8915 3235
+$Comp
+L sbc_z80-rescue:R_Small-Device R34
+U 1 1 6040DBF5
+P 8710 3450
+F 0 "R34" H 8710 3310 50  0000 L CNN
+F 1 "10K" V 8705 3380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8710 3450 50  0001 C CNN
+F 3 "~" H 8710 3450 50  0001 C CNN
+	1    8710 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sbc_z80-rescue:R_Small-Device R33
+U 1 1 6040DBEF
+P 8610 3450
+F 0 "R33" H 8610 3310 50  0000 L CNN
+F 1 "10K" V 8605 3375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8610 3450 50  0001 C CNN
+F 3 "~" H 8610 3450 50  0001 C CNN
+	1    8610 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sbc_z80-rescue:R_Small-Device R32
+U 1 1 6040DBE9
+P 8510 3450
+F 0 "R32" H 8510 3310 50  0000 L CNN
+F 1 "10K" V 8505 3380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8510 3450 50  0001 C CNN
+F 3 "~" H 8510 3450 50  0001 C CNN
+	1    8510 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sbc_z80-rescue:R_Small-Device R31
+U 1 1 6040DBE3
+P 8410 3450
+F 0 "R31" H 8420 3310 50  0000 L CNN
+F 1 "10K" V 8405 3380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8410 3450 50  0001 C CNN
+F 3 "~" H 8410 3450 50  0001 C CNN
+	1    8410 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sbc_z80-rescue:+5V-power #PWR045
+U 1 1 6040DBDD
+P 8660 3095
+F 0 "#PWR045" H 8660 2945 50  0001 C CNN
+F 1 "+5V" H 8675 3268 50  0000 C CNN
+F 2 "" H 8660 3095 50  0001 C CNN
+F 3 "" H 8660 3095 50  0001 C CNN
+	1    8660 3095
+	1    0    0    -1  
+$EndComp
+Connection ~ 8510 3235
+Connection ~ 8610 3235
+Wire Wire Line
+	8660 3235 8660 3095
+Wire Wire Line
+	8610 3235 8660 3235
+Wire Wire Line
+	8610 3350 8610 3235
+Wire Wire Line
+	8710 3350 8710 3235
+Wire Wire Line
+	8510 3350 8510 3235
+Wire Wire Line
+	8410 3235 8510 3235
+Wire Wire Line
+	8410 3350 8410 3235
 $EndSCHEMATC
