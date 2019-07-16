@@ -14,6 +14,7 @@ entity z80_glue is
 		nMREQ  : in    std_logic;
 		nRESET	: in std_logic;
 		SW	: in std_logic_vector(5 downto 0);
+		RA16 : out std_logic;
 		nROM  : out   std_logic;
 		nRAM : out   std_logic;
 		nSIO  : out   std_logic;
@@ -25,12 +26,36 @@ end z80_glue;
 
 architecture rtl of z80_glue is
 	signal nRS : std_logic := '1';
-	signal RA16 : std_logic := '0';
 	signal nROM_EN : std_logic;
 	signal G : std_logic;
 	signal nIORD : std_logic;
 	signal nIOWR : std_logic;
+	
+	signal i2c_ena : std_logic;
+	signal slave_addr : std_LOGIC_VECTOR(6 downto 0);
+	signal data_rd : std_LOGIC_VECTOR(7 downto 0);
+	signal data_wr : std_LOGIC_VECTOR(7 downto 0);
+	signal sda : std_LOGIC;
+	signal scl : std_LOGIC;
+	signal ack_error : std_LOGIC;
+	signal busy : std_LOGIC;
 begin
+
+	i2c_inst : entity work.i2c_master
+	generic map(input_clk => 100_000_000, bus_clk => 1_000_000)
+	port map (
+		    clk   => clk,
+			 reset_n  => nRESET,
+			 ena       => i2c_ena,                   --latch in command
+			 addr     => slave_addr,
+			 rw       => '1',                    --'0' is write, '1' is read
+			 data_wr   => "00000000",
+			 busy     => busy,                    --indicates transaction in progress
+			 data_rd   => data_rd,
+			 ack_error => ack_error,                    --flag if improper acknowledge from slave
+			 sda      => sda,                    --serial data output of i2c bus
+			 scl      => scl
+	);
 
 	process(G,nRESET,AL,D0)
 	begin
@@ -40,7 +65,7 @@ begin
 		elsif G = '0' then
 			if AL(5 downto 3) = "111" then
 			  nRS <= D0;
-		   elsif AL(5 downto 3) = "110" then
+			elsif AL(5 downto 3) = "110" then
 			  RA16 <= D0;
 			end if;
 		end if;
