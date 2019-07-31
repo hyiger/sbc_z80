@@ -713,4 +713,5 @@ NoConn ~ 8150 2600
 NoConn ~ 8150 2700
 NoConn ~ 8150 2900
 NoConn ~ 8150 3000
+Connection ~ 7550 800 
 $EndSCHEMATC
