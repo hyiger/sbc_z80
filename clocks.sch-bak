@@ -67,18 +67,18 @@ $EndComp
 $Comp
 L sbc_z80-rescue:R_Small-Device R1
 U 1 1 5D0168D6
-P 6200 1150
-F 0 "R1" H 6259 1196 50  0000 L CNN
-F 1 "1K" H 6259 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6200 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 6200 1150 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 6259 1296 50  0001 C CNN "Description"
-F 5 "Yageo" H 6200 1150 50  0001 C CNN "MFR"
-F 6 "RC0603JR-071KL" H 6200 1150 50  0001 C CNN "MPN"
-F 7 "603-RC0603JR-071KL" H 6259 1296 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6200 1150 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 6259 1296 50  0001 C CNN "SPURL"
-	1    6200 1150
+P 6300 1200
+F 0 "R1" H 6359 1246 50  0000 L CNN
+F 1 "1K" H 6359 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 6300 1200 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 6359 1346 50  0001 C CNN "Description"
+F 5 "Yageo" H 6300 1200 50  0001 C CNN "MFR"
+F 6 "RC0603JR-071KL" H 6300 1200 50  0001 C CNN "MPN"
+F 7 "603-RC0603JR-071KL" H 6359 1346 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6300 1200 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 6359 1346 50  0001 C CNN "SPURL"
+	1    6300 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -98,52 +98,52 @@ Connection ~ 1050 3345
 $Comp
 L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D01D4B0
-P 5300 2700
+P 5400 2750
 AR Path="/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D01D4B0" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D01D4B0" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 5300 2450 50  0001 C CNN
-F 1 "GND" H 5305 2527 50  0000 C CNN
-F 2 "" H 5300 2700 50  0001 C CNN
-F 3 "" H 5300 2700 50  0001 C CNN
-	1    5300 2700
+F 0 "#PWR042" H 5400 2500 50  0001 C CNN
+F 1 "GND" H 5405 2577 50  0000 C CNN
+F 2 "" H 5400 2750 50  0001 C CNN
+F 3 "" H 5400 2750 50  0001 C CNN
+	1    5400 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L sbc_z80-rescue:Conn_01x03-Connector_Generic J?
 U 1 1 5D03DC78
-P 3450 1600
+P 3550 1650
 AR Path="/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5CF9C1ED/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D03DC78" Ref="J?"  Part="1" 
 AR Path="/5D65A6A0/5D03DC78" Ref="J2"  Part="1" 
-F 0 "J2" H 3445 2005 50  0000 C CNN
-F 1 "UPDI TTL" H 3450 1875 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3450 1600 50  0001 C CNN
-F 3 "~" H 3450 1600 50  0001 C CNN
-	1    3450 1600
+F 0 "J2" H 3545 2055 50  0000 C CNN
+F 1 "UPDI TTL" H 3550 1925 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3550 1650 50  0001 C CNN
+F 3 "~" H 3550 1650 50  0001 C CNN
+	1    3550 1650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L sbc_z80-rescue:R_Small-Device R3
 U 1 1 5D041A40
-P 4100 1600
-F 0 "R3" H 4159 1646 50  0000 L CNN
-F 1 "4K7" H 4159 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 1600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 4100 1600 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 4159 1746 50  0001 C CNN "Description"
-F 5 "Yageo" H 4100 1600 50  0001 C CNN "MFR"
-F 6 "RC0603JR-071KL" H 4100 1600 50  0001 C CNN "MPN"
-F 7 "603-RC0603JR-071KL" H 4159 1746 50  0001 C CNN "SPN"
-F 8 "Mouser" H 4100 1600 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 4159 1746 50  0001 C CNN "SPURL"
-	1    4100 1600
+P 4200 1650
+F 0 "R3" H 4259 1696 50  0000 L CNN
+F 1 "4K7" H 4259 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4200 1650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 4200 1650 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 4259 1796 50  0001 C CNN "Description"
+F 5 "Yageo" H 4200 1650 50  0001 C CNN "MFR"
+F 6 "RC0603JR-071KL" H 4200 1650 50  0001 C CNN "MPN"
+F 7 "603-RC0603JR-071KL" H 4259 1796 50  0001 C CNN "SPN"
+F 8 "Mouser" H 4200 1650 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 4259 1796 50  0001 C CNN "SPURL"
+	1    4200 1650
 	0    -1   -1   0   
 $EndComp
-Text Label 3750 1700 0    50   ~ 0
+Text Label 3850 1750 0    50   ~ 0
 RX
 $Comp
 L sbc_z80-rescue:C_Small-Device C4
@@ -227,28 +227,28 @@ $EndComp
 $Comp
 L sbc_z80-rescue:+3V3-power #PWR034
 U 1 1 5EFB7DBF
-P 6300 1050
-F 0 "#PWR034" H 6300 900 50  0001 C CNN
-F 1 "+3V3" V 6315 1178 50  0000 L CNN
-F 2 "" H 6300 1050 50  0001 C CNN
-F 3 "" H 6300 1050 50  0001 C CNN
-	1    6300 1050
+P 6400 1100
+F 0 "#PWR034" H 6400 950 50  0001 C CNN
+F 1 "+3V3" V 6415 1228 50  0000 L CNN
+F 2 "" H 6400 1100 50  0001 C CNN
+F 3 "" H 6400 1100 50  0001 C CNN
+	1    6400 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5EFBCFCB
-P 3850 1050
+P 3950 1100
 AR Path="/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5EFBCFCB" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5EFBCFCB" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 3850 800 50  0001 C CNN
-F 1 "GND" H 3855 877 50  0000 C CNN
-F 2 "" H 3850 1050 50  0001 C CNN
-F 3 "" H 3850 1050 50  0001 C CNN
-	1    3850 1050
+F 0 "#PWR037" H 3950 850 50  0001 C CNN
+F 1 "GND" H 3955 927 50  0000 C CNN
+F 2 "" H 3950 1100 50  0001 C CNN
+F 3 "" H 3950 1100 50  0001 C CNN
+	1    3950 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -423,294 +423,294 @@ Wire Wire Line
 Connection ~ 1265 945 
 Wire Wire Line
 	1265 945  1475 945 
-Text HLabel 4700 1700 0    50   Input ~ 0
+Text HLabel 4800 1750 0    50   Input ~ 0
 D0
-Text HLabel 4700 1800 0    50   Input ~ 0
+Text HLabel 4800 1850 0    50   Input ~ 0
 D1
-Text HLabel 4700 1900 0    50   Input ~ 0
+Text HLabel 4800 1950 0    50   Input ~ 0
 D2
-Text HLabel 4700 2100 0    50   Input ~ 0
+Text HLabel 4800 2150 0    50   Input ~ 0
 D4
-Text HLabel 4700 2200 0    50   Input ~ 0
+Text HLabel 4800 2250 0    50   Input ~ 0
 D5
-Text HLabel 4700 2300 0    50   Input ~ 0
+Text HLabel 4800 2350 0    50   Input ~ 0
 D6
-Text HLabel 5900 1800 2    50   Input ~ 0
+Text HLabel 6000 1850 2    50   Input ~ 0
 D7
 $Comp
 L sbc_z80-rescue:ACDA02-41SGWA-F01-Display_Character U?
 U 1 1 5F4897F6
-P 9785 1435
+P 9885 1485
 AR Path="/5F4897F6" Ref="U?"  Part="1" 
 AR Path="/5D65A6A0/5F4897F6" Ref="U14"  Part="1" 
-F 0 "U14" H 9785 2110 50  0000 C CNN
-F 1 "ACDA02-41SGWA-F01" H 9785 2019 50  0000 C CNN
-F 2 "Display:ACDA02-41SGWA-F01" H 9775 755 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/216/ACDA02-41SGWA-F01-42033.pdf" H 9530 1665 50  0001 C CNN
-	1    9785 1435
+F 0 "U14" H 9885 2160 50  0000 C CNN
+F 1 "ACDA02-41SGWA-F01" H 9885 2069 50  0000 C CNN
+F 2 "Display:ACDA02-41SGWA-F01" H 9875 805 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/216/ACDA02-41SGWA-F01-42033.pdf" H 9630 1715 50  0001 C CNN
+	1    9885 1485
 	1    0    0    -1  
 $EndComp
-Text Label 6650 1700 0    50   ~ 0
+Text Label 6750 1750 0    50   ~ 0
 SDA
-Text Label 6650 1600 0    50   ~ 0
+Text Label 6750 1650 0    50   ~ 0
 SCL
-Text Label 6650 1900 0    50   ~ 0
+Text Label 6750 1950 0    50   ~ 0
 IRQ
 $Comp
 L sbc_z80-rescue:AS1115-BSST-Interface_Expansion U?
 U 1 1 5F4897F0
-P 7550 2000
+P 7650 2050
 AR Path="/5F4897F0" Ref="U?"  Part="1" 
 AR Path="/5D65A6A0/5F4897F0" Ref="U13"  Part="1" 
-F 0 "U13" H 7550 2015 50  0000 C CNN
-F 1 "AS1115-BSST" H 7920 3165 50  0000 C CNN
-F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 7550 2000 50  0001 C CNN
-F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f" H 7550 2000 50  0001 C CNN
-	1    7550 2000
+F 0 "U13" H 7650 2065 50  0000 C CNN
+F 1 "AS1115-BSST" H 8020 3215 50  0000 C CNN
+F 2 "Package_SO:QSOP-24_3.9x8.7mm_P0.635mm" H 7650 2050 50  0001 C CNN
+F 3 "https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f" H 7650 2050 50  0001 C CNN
+	1    7650 2050
 	1    0    0    -1  
 $EndComp
-Text Label 9095 985  0    50   ~ 0
+Text Label 9195 1035 0    50   ~ 0
 A
-Text Label 9095 1085 0    50   ~ 0
+Text Label 9195 1135 0    50   ~ 0
 B
-Text Label 9095 1185 0    50   ~ 0
+Text Label 9195 1235 0    50   ~ 0
 C
-Text Label 9095 1285 0    50   ~ 0
+Text Label 9195 1335 0    50   ~ 0
 D
-Text Label 9095 1385 0    50   ~ 0
+Text Label 9195 1435 0    50   ~ 0
 E
-Text Label 9095 1485 0    50   ~ 0
+Text Label 9195 1535 0    50   ~ 0
 F
-Text Label 9095 1585 0    50   ~ 0
+Text Label 9195 1635 0    50   ~ 0
 G
-Text Label 9095 1685 0    50   ~ 0
+Text Label 9195 1735 0    50   ~ 0
 DP
-Text Label 9095 1785 0    50   ~ 0
+Text Label 9195 1835 0    50   ~ 0
 DIG0
-Text Label 9095 1885 0    50   ~ 0
+Text Label 9195 1935 0    50   ~ 0
 DIG0
 Wire Wire Line
-	10285 985  10545 985 
+	10385 1035 10645 1035
 Wire Wire Line
-	10285 1085 10545 1085
+	10385 1135 10645 1135
 Wire Wire Line
-	10285 1185 10545 1185
+	10385 1235 10645 1235
 Wire Wire Line
-	10285 1285 10545 1285
+	10385 1335 10645 1335
 Wire Wire Line
-	10285 1385 10545 1385
+	10385 1435 10645 1435
 Wire Wire Line
-	10285 1485 10545 1485
+	10385 1535 10645 1535
 Wire Wire Line
-	10285 1585 10545 1585
+	10385 1635 10645 1635
 Wire Wire Line
-	10285 1685 10545 1685
-Text Label 10475 985  2    50   ~ 0
+	10385 1735 10645 1735
+Text Label 10575 1035 2    50   ~ 0
 A
-Text Label 10475 1085 2    50   ~ 0
+Text Label 10575 1135 2    50   ~ 0
 B
-Text Label 10475 1185 2    50   ~ 0
+Text Label 10575 1235 2    50   ~ 0
 C
-Text Label 10475 1285 2    50   ~ 0
+Text Label 10575 1335 2    50   ~ 0
 D
-Text Label 10475 1385 2    50   ~ 0
+Text Label 10575 1435 2    50   ~ 0
 E
-Text Label 10475 1485 2    50   ~ 0
+Text Label 10575 1535 2    50   ~ 0
 F
-Text Label 10475 1585 2    50   ~ 0
+Text Label 10575 1635 2    50   ~ 0
 G
-Text Label 10475 1685 2    50   ~ 0
+Text Label 10575 1735 2    50   ~ 0
 DP
 Wire Wire Line
-	10285 1785 10545 1785
+	10385 1835 10645 1835
 Wire Wire Line
-	10285 1885 10545 1885
-Text Label 10475 1785 2    50   ~ 0
+	10385 1935 10645 1935
+Text Label 10575 1835 2    50   ~ 0
 DIG1
-Text Label 10475 1885 2    50   ~ 0
+Text Label 10575 1935 2    50   ~ 0
 DIG1
 $Comp
 L sbc_z80-rescue:GND-power #PWR?
 U 1 1 5D361F7F
-P 7550 3200
+P 7650 3250
 AR Path="/5D361F7F" Ref="#PWR?"  Part="1" 
 AR Path="/5D0F9837/5D361F7F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D361F7F" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5CFFC458/5D361F7F" Ref="#PWR?"  Part="1" 
 AR Path="/5D65A6A0/5D361F7F" Ref="#PWR048"  Part="1" 
-F 0 "#PWR048" H 7550 2950 50  0001 C CNN
-F 1 "GND" H 7555 3027 50  0000 C CNN
-F 2 "" H 7550 3200 50  0001 C CNN
-F 3 "" H 7550 3200 50  0001 C CNN
-	1    7550 3200
+F 0 "#PWR048" H 7650 3000 50  0001 C CNN
+F 1 "GND" H 7655 3077 50  0000 C CNN
+F 2 "" H 7650 3250 50  0001 C CNN
+F 3 "" H 7650 3250 50  0001 C CNN
+	1    7650 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L sbc_z80-rescue:ATtiny1614-SS-MCU_Microchip_ATtiny U11
 U 1 1 5D018E69
-P 5300 2000
-F 0 "U11" H 5295 2015 50  0000 C CNN
-F 1 "ATtiny1614-SS" H 5300 1920 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 2000 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5300 2000 50  0001 C CNN
-F 4 "8-bit Microcontrollers - MCU 20MHZ SOIC 85C GRN" H 5300 2000 50  0001 C CNN "Description"
-F 5 "Microchip Technology" H 5300 2000 50  0001 C CNN "MFR"
-F 6 "ATTINY1614-SSNR" H 5300 2000 50  0001 C CNN "MPN"
-F 7 "556-ATTINY1614SSNR" H 5300 2000 50  0001 C CNN "SPN"
-F 8 "Mouser" H 5300 2000 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/556-ATTINY1614SSNR" H 5300 2000 50  0001 C CNN "SPURL"
-	1    5300 2000
+P 5400 2050
+F 0 "U11" H 5395 2065 50  0000 C CNN
+F 1 "ATtiny1614-SS" H 5400 1970 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5400 2050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5400 2050 50  0001 C CNN
+F 4 "8-bit Microcontrollers - MCU 20MHZ SOIC 85C GRN" H 5400 2050 50  0001 C CNN "Description"
+F 5 "Microchip Technology" H 5400 2050 50  0001 C CNN "MFR"
+F 6 "ATTINY1614-SSNR" H 5400 2050 50  0001 C CNN "MPN"
+F 7 "556-ATTINY1614SSNR" H 5400 2050 50  0001 C CNN "SPN"
+F 8 "Mouser" H 5400 2050 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/556-ATTINY1614SSNR" H 5400 2050 50  0001 C CNN "SPURL"
+	1    5400 2050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 1600 6200 1600
+	7050 1650 6300 1650
 Wire Wire Line
-	5900 1700 6400 1700
+	6000 1750 6500 1750
 Wire Wire Line
-	5900 1900 6950 1900
+	6000 1950 7050 1950
 $Comp
 L sbc_z80-rescue:R_Small-Device R2
 U 1 1 5D017809
-P 6400 1150
-F 0 "R2" H 6459 1196 50  0000 L CNN
-F 1 "1K" H 6459 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 1150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 6400 1150 50  0001 C CNN
-F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 6459 1296 50  0001 C CNN "Description"
-F 5 "Yageo" H 6400 1150 50  0001 C CNN "MFR"
-F 6 "RC0603JR-071KL" H 6400 1150 50  0001 C CNN "MPN"
-F 7 "603-RC0603JR-071KL" H 6459 1296 50  0001 C CNN "SPN"
-F 8 "Mouser" H 6400 1150 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 6459 1296 50  0001 C CNN "SPURL"
-	1    6400 1150
+P 6500 1200
+F 0 "R2" H 6559 1246 50  0000 L CNN
+F 1 "1K" H 6559 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 6500 1200 50  0001 C CNN
+F 4 "Thick Film Resistors - SMD 1K OHM 5%" H 6559 1346 50  0001 C CNN "Description"
+F 5 "Yageo" H 6500 1200 50  0001 C CNN "MFR"
+F 6 "RC0603JR-071KL" H 6500 1200 50  0001 C CNN "MPN"
+F 7 "603-RC0603JR-071KL" H 6559 1346 50  0001 C CNN "SPN"
+F 8 "Mouser" H 6500 1200 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/603-RC0603JR-071KL" H 6559 1346 50  0001 C CNN "SPURL"
+	1    6500 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 1250 6400 1700
-Connection ~ 6400 1700
+	6500 1300 6500 1750
+Connection ~ 6500 1750
 Wire Wire Line
-	6400 1700 6950 1700
+	6500 1750 7050 1750
 Wire Wire Line
-	6200 1250 6200 1600
-Connection ~ 6200 1600
+	6300 1300 6300 1650
+Connection ~ 6300 1650
 Wire Wire Line
-	6200 1600 5900 1600
+	6300 1650 6000 1650
 Wire Wire Line
-	6200 1050 6300 1050
-Connection ~ 6300 1050
+	6300 1100 6400 1100
+Connection ~ 6400 1100
 Wire Wire Line
-	6300 1050 6400 1050
+	6400 1100 6500 1100
 Wire Wire Line
-	4700 1600 4450 1600
+	4800 1650 4550 1650
 Wire Wire Line
-	4450 1700 4450 1600
-Connection ~ 4450 1600
+	4550 1750 4550 1650
+Connection ~ 4550 1650
 Wire Wire Line
-	4450 1600 4200 1600
-Text Label 3750 1600 0    50   ~ 0
+	4550 1650 4300 1650
+Text Label 3850 1650 0    50   ~ 0
 TX
 Wire Wire Line
-	3650 1700 4450 1700
+	3750 1750 4550 1750
 Wire Wire Line
-	4000 1600 3650 1600
+	4100 1650 3750 1650
 Wire Wire Line
-	3650 1500 3650 1050
+	3750 1550 3750 1100
 Wire Wire Line
-	3650 1050 3850 1050
+	3750 1100 3950 1100
 Wire Wire Line
-	6950 1400 6950 800 
+	7050 1450 7050 850 
 Wire Wire Line
-	6950 800  7550 800 
+	7050 850  7650 850 
 $Comp
 L sbc_z80-rescue:+3V3-power #PWR036
 U 1 1 5EFB591E
-P 5300 1300
-F 0 "#PWR036" H 5300 1150 50  0001 C CNN
-F 1 "+3V3" V 5315 1428 50  0000 L CNN
-F 2 "" H 5300 1300 50  0001 C CNN
-F 3 "" H 5300 1300 50  0001 C CNN
-	1    5300 1300
+P 5400 1350
+F 0 "#PWR036" H 5400 1200 50  0001 C CNN
+F 1 "+3V3" V 5415 1478 50  0000 L CNN
+F 2 "" H 5400 1350 50  0001 C CNN
+F 3 "" H 5400 1350 50  0001 C CNN
+	1    5400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L sbc_z80-rescue:+3V3-power #PWR?
 U 1 1 5D4308E8
-P 7550 800
-F 0 "#PWR?" H 7550 650 50  0001 C CNN
-F 1 "+3V3" V 7565 928 50  0000 L CNN
-F 2 "" H 7550 800 50  0001 C CNN
-F 3 "" H 7550 800 50  0001 C CNN
-	1    7550 800 
+P 7650 850
+F 0 "#PWR?" H 7650 700 50  0001 C CNN
+F 1 "+3V3" V 7665 978 50  0000 L CNN
+F 2 "" H 7650 850 50  0001 C CNN
+F 3 "" H 7650 850 50  0001 C CNN
+	1    7650 850 
 	1    0    0    -1  
 $EndComp
-Text HLabel 4700 2000 0    50   Input ~ 0
+Text HLabel 4800 2050 0    50   Input ~ 0
 D3
 Wire Wire Line
-	9285 985  9025 985 
+	9385 1035 9125 1035
 Wire Wire Line
-	9285 1785 9025 1785
+	9385 1835 9125 1835
 Wire Wire Line
-	9285 1485 9025 1485
+	9385 1535 9125 1535
 Wire Wire Line
-	9285 1385 9025 1385
+	9385 1435 9125 1435
 Wire Wire Line
-	9285 1185 9025 1185
+	9385 1235 9125 1235
 Wire Wire Line
-	9285 1885 9025 1885
+	9385 1935 9125 1935
 Wire Wire Line
-	9285 1285 9025 1285
+	9385 1335 9125 1335
 Wire Wire Line
-	9285 1685 9025 1685
+	9385 1735 9125 1735
 Wire Wire Line
-	9285 1585 9025 1585
+	9385 1635 9125 1635
 Wire Wire Line
-	9285 1085 9025 1085
+	9385 1135 9125 1135
 Wire Wire Line
-	8150 1000 8450 1000
+	8250 1050 8550 1050
 Wire Wire Line
-	8150 1100 8450 1100
+	8250 1150 8550 1150
 Wire Wire Line
-	8150 1200 8450 1200
+	8250 1250 8550 1250
 Wire Wire Line
-	8150 1300 8450 1300
+	8250 1350 8550 1350
 Wire Wire Line
-	8150 1400 8450 1400
+	8250 1450 8550 1450
 Wire Wire Line
-	8150 1500 8450 1500
+	8250 1550 8550 1550
 Wire Wire Line
-	8150 1600 8450 1600
+	8250 1650 8550 1650
 Wire Wire Line
-	8150 1800 8450 1800
+	8250 1850 8550 1850
 Wire Wire Line
-	8150 2000 8450 2000
+	8250 2050 8550 2050
 Wire Wire Line
-	8150 2100 8450 2100
-Text Label 8300 1000 0    50   ~ 0
+	8250 2150 8550 2150
+Text Label 8400 1050 0    50   ~ 0
 A
-Text Label 8300 1100 0    50   ~ 0
+Text Label 8400 1150 0    50   ~ 0
 B
-Text Label 8300 1200 0    50   ~ 0
+Text Label 8400 1250 0    50   ~ 0
 C
-Text Label 8300 1300 0    50   ~ 0
+Text Label 8400 1350 0    50   ~ 0
 D
-Text Label 8300 1400 0    50   ~ 0
+Text Label 8400 1450 0    50   ~ 0
 E
-Text Label 8300 1500 0    50   ~ 0
+Text Label 8400 1550 0    50   ~ 0
 F
-Text Label 8300 1600 0    50   ~ 0
+Text Label 8400 1650 0    50   ~ 0
 G
-Text Label 8300 1800 0    50   ~ 0
+Text Label 8400 1850 0    50   ~ 0
 DP
-Text Label 8250 2000 0    50   ~ 0
+Text Label 8350 2050 0    50   ~ 0
 DIG0
-Text Label 8250 2100 0    50   ~ 0
+Text Label 8350 2150 0    50   ~ 0
 DIG1
-NoConn ~ 8150 2200
-NoConn ~ 8150 2300
-NoConn ~ 8150 2400
-NoConn ~ 8150 2500
-NoConn ~ 8150 2600
-NoConn ~ 8150 2700
-NoConn ~ 8150 2900
-NoConn ~ 8150 3000
+NoConn ~ 8250 2250
+NoConn ~ 8250 2350
+NoConn ~ 8250 2450
+NoConn ~ 8250 2550
+NoConn ~ 8250 2650
+NoConn ~ 8250 2750
+NoConn ~ 8250 2950
+NoConn ~ 8250 3050
 $EndSCHEMATC
