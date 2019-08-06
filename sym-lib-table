@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name sbc_z80-rescue)(type Legacy)(uri ${KIPRJMOD}/sbc_z80-rescue.lib)(options "")(descr ""))
+  (lib (name "sbc_z80-rescue")(type "Legacy")(uri "${KIPRJMOD}/sbc_z80-rescue.lib")(options "")(descr ""))
+  (lib (name "max_breakout-rescue")(type "Legacy")(uri "/Users/rlewis/gitrepo/max_breakout/max_breakout-rescue.lib")(options "")(descr ""))
 )
