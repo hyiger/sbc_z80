@@ -1,28 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xGxx_74HCT2G04
-#
-DEF 74xGxx_74HCT2G04 U 0 40 Y Y 2 F N
-F0 "U" -100 150 50 H V C CNN
-F1 "74xGxx_74HCT2G04" 0 -150 50 H V C CNN
-F2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SG-*
- SOT*
-$ENDFPLIST
-DRAW
-P 4 0 1 10 -150 100 -150 -100 100 0 -150 100 N
-X GND 2 0 -100 0 D 40 40 0 1 W N
-X VCC 5 0 100 0 U 40 40 0 1 W N
-X ~ 1 -300 0 150 R 40 40 1 1 I
-X ~ 6 250 0 150 L 40 40 1 1 O I
-X ~ 3 -300 0 150 R 40 40 2 1 I
-X ~ 4 250 0 150 L 40 40 2 1 O I
-ENDDRAW
-ENDDEF
-#
 # 74xx_74HCT273
 #
 DEF 74xx_74HCT273 U 0 20 Y Y 1 F N
@@ -58,6 +36,26 @@ X Q2 6 500 300 200 L 50 50 1 0 O
 X D2 7 -500 300 200 R 50 50 1 0 I
 X D3 8 -500 200 200 R 50 50 1 0 I
 X Q3 9 500 200 200 L 50 50 1 0 O
+ENDDRAW
+ENDDEF
+#
+# Analog_Switch_MAX40200AUK
+#
+DEF Analog_Switch_MAX40200AUK U 0 20 Y Y 1 F N
+F0 "U" -250 250 50 H V C CNN
+F1 "Analog_Switch_MAX40200AUK" 300 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 500 50 H I C CNN
+F3 "" 0 500 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -300 -200 300 200 1 1 10 f
+X VDD 1 -400 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -400 -100 100 R 50 50 1 1 I
+X NC 4 300 -100 100 L 50 50 1 1 N N
+X OUT 5 400 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -153,6 +151,60 @@ X Pin_6 6 300 700 150 L 50 50 1 1 P
 X Pin_7 7 -200 600 150 R 50 50 1 1 P
 X Pin_8 8 300 600 150 L 50 50 1 1 P
 X Pin_9 9 -200 500 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_USB_B_Micro
+#
+DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+ALIAS USB_B_Mini
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -262,24 +314,6 @@ X Vdd 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_AP7381-33SA
-#
-DEF Regulator_Linear_AP7381-33SA U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_AP7381-33SA" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 225 50 H I C CIN
-F3 "" 0 -50 50 H I C CNN
-$FPLIST
- SOT?223*
-$ENDFPLIST
-DRAW
-S -200 -200 200 75 0 1 10 f
-X VI 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X VO 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
@@ -297,163 +331,31 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# max_breakout-rescue_AVR-JTAG-10-Connector
+# power_+5V
 #
-DEF max_breakout-rescue_AVR-JTAG-10-Connector J 0 40 Y Y 1 F N
-F0 "J" 175 500 50 H V L CNN
-F1 "max_breakout-rescue_AVR-JTAG-10-Connector" 100 -500 50 H V L CNN
-F2 "" -150 150 50 V I C CNN
-F3 "" -1275 -550 50 H I C CNN
-$FPLIST
- IDC?Header*2x05*
- Pin?Header*2x05*
-$ENDFPLIST
-DRAW
-S -105 450 -95 420 0 1 0 N
-S -5 -420 5 -450 0 1 0 N
-S -5 450 5 420 0 1 0 N
-S 350 -195 320 -205 0 1 0 N
-S 350 -95 320 -105 0 1 0 N
-S 350 5 320 -5 0 1 0 N
-S 350 105 320 95 0 1 0 N
-S 350 205 320 195 0 1 0 N
-S 350 305 320 295 0 1 0 N
-S 350 450 -350 -450 0 1 10 f
-X TCK 1 500 100 150 L 50 50 1 1 P
-X GND 10 0 -600 150 U 50 50 1 1 W
-X GND 2 0 -600 150 U 50 50 1 1 P N
-X TDO 3 500 -100 150 L 50 50 1 1 P
-X VREF 4 -100 600 150 D 50 50 1 1 P
-X TMS 5 500 0 150 L 50 50 1 1 P
-X ~SRST 6 500 300 150 L 50 50 1 1 P
-X VCC 7 0 600 150 D 50 50 1 1 W
-X ~TRST 8 500 200 150 L 50 50 1 1 P
-X TDI 9 500 -200 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# max_breakout-rescue_C_Small-Device
-#
-DEF max_breakout-rescue_C_Small-Device C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "max_breakout-rescue_C_Small-Device" 10 -80 50 H V L CNN
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
 DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# max_breakout-rescue_DS1813R-5+T&R-Power_Supervisor
+# power_GND
 #
-DEF max_breakout-rescue_DS1813R-5+T&R-Power_Supervisor U 0 40 Y Y 1 F N
-F0 "U" 0 350 50 H V L CNN
-F1 "max_breakout-rescue_DS1813R-5+T&R-Power_Supervisor" -50 -350 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" -400 150 50 H I C CNN
-F3 "" -300 250 50 H I C CNN
-$FPLIST
- SOT?23*
- *SC?70*
-$ENDFPLIST
-DRAW
-S -200 300 200 -300 1 1 10 f
-X ~RESET~ 1 300 0 100 L 50 50 1 1 O
-X VCC 2 -100 400 100 D 50 50 1 1 W
-X GND 3 -100 -400 100 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# max_breakout-rescue_GND-power
-#
-DEF max_breakout-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "max_breakout-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# max_breakout-rescue_IRLML6402-Transistor_FET
-#
-DEF max_breakout-rescue_IRLML6402-Transistor_FET Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "max_breakout-rescue_IRLML6402-Transistor_FET" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 -100 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 90 0 50 -15 50 15 90 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X G 1 -200 0 100 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# max_breakout-rescue_LED-Device
-#
-DEF max_breakout-rescue_LED-Device D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "max_breakout-rescue_LED-Device" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# max_breakout-rescue_R_Small-Device
-#
-DEF max_breakout-rescue_R_Small-Device R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "max_breakout-rescue_R_Small-Device" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -484,11 +386,104 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# sbc_z80-rescue_74HCT2G04-74xGxx
+#
+DEF sbc_z80-rescue_74HCT2G04-74xGxx U 0 40 Y Y 2 F N
+F0 "U" -100 150 50 H V C CNN
+F1 "sbc_z80-rescue_74HCT2G04-74xGxx" 0 -150 50 H V C CNN
+F2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SG-*
+ SOT*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -150 100 -150 -100 100 0 -150 100 N
+X GND 2 0 -100 0 D 40 40 0 1 W N
+X VCC 5 0 100 0 U 40 40 0 1 W N
+X ~ 1 -300 0 150 R 40 40 1 1 I
+X ~ 6 250 0 150 L 40 40 1 1 O I
+X ~ 3 -300 0 150 R 40 40 2 1 I
+X ~ 4 250 0 150 L 40 40 2 1 O I
+ENDDRAW
+ENDDEF
+#
+# sbc_z80-rescue_AP7381-33SA-Regulator_Linear
+#
+DEF sbc_z80-rescue_AP7381-33SA-Regulator_Linear U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "sbc_z80-rescue_AP7381-33SA-Regulator_Linear" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 225 50 H I C CIN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ SOT?223*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X VI 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VO 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# sbc_z80-rescue_AVR-JTAG-10-Connector-max_breakout-rescue
+#
+DEF sbc_z80-rescue_AVR-JTAG-10-Connector-max_breakout-rescue J 0 40 Y Y 1 F N
+F0 "J" 175 500 50 H V L CNN
+F1 "sbc_z80-rescue_AVR-JTAG-10-Connector-max_breakout-rescue" 100 -500 50 H V L CNN
+F2 "" -150 150 50 V I C CNN
+F3 "" -1275 -550 50 H I C CNN
+$FPLIST
+ IDC?Header*2x05*
+ Pin?Header*2x05*
+$ENDFPLIST
+DRAW
+S -105 450 -95 420 0 1 0 N
+S -5 -420 5 -450 0 1 0 N
+S -5 450 5 420 0 1 0 N
+S 350 -195 320 -205 0 1 0 N
+S 350 -95 320 -105 0 1 0 N
+S 350 5 320 -5 0 1 0 N
+S 350 105 320 95 0 1 0 N
+S 350 205 320 195 0 1 0 N
+S 350 305 320 295 0 1 0 N
+S 350 450 -350 -450 0 1 10 f
+X TCK 1 500 100 150 L 50 50 1 1 P
+X GND 10 0 -600 150 U 50 50 1 1 W
+X GND 2 0 -600 150 U 50 50 1 1 P N
+X TDO 3 500 -100 150 L 50 50 1 1 P
+X VREF 4 -100 600 150 D 50 50 1 1 P
+X TMS 5 500 0 150 L 50 50 1 1 P
+X ~SRST 6 500 300 150 L 50 50 1 1 P
+X VCC 7 0 600 150 D 50 50 1 1 W
+X ~TRST 8 500 200 150 L 50 50 1 1 P
+X TDI 9 500 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sbc_z80-rescue_C_Small-Device
 #
 DEF sbc_z80-rescue_C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "sbc_z80-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# sbc_z80-rescue_C_Small-Device-max_breakout-rescue
+#
+DEF sbc_z80-rescue_C_Small-Device-max_breakout-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "sbc_z80-rescue_C_Small-Device-max_breakout-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -806,6 +801,25 @@ X Pin_9 9 -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# sbc_z80-rescue_DS1813R-5+T&R-Power_Supervisor-max_breakout-rescue
+#
+DEF sbc_z80-rescue_DS1813R-5+T&R-Power_Supervisor-max_breakout-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V L CNN
+F1 "sbc_z80-rescue_DS1813R-5+T&R-Power_Supervisor-max_breakout-rescue" -50 -350 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" -400 150 50 H I C CNN
+F3 "" -300 250 50 H I C CNN
+$FPLIST
+ SOT?23*
+ *SC?70*
+$ENDFPLIST
+DRAW
+S -200 300 200 -300 1 1 10 f
+X ~RESET~ 1 300 0 100 L 50 50 1 1 O
+X VCC 2 -100 400 100 D 50 50 1 1 W
+X GND 3 -100 -400 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # sbc_z80-rescue_EPM7032STC44-CPLD_Altera-sbc_z80-rescue
 #
 DEF sbc_z80-rescue_EPM7032STC44-CPLD_Altera-sbc_z80-rescue U 0 40 Y Y 1 F N
@@ -875,6 +889,54 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# sbc_z80-rescue_GND-power-max_breakout-rescue
+#
+DEF sbc_z80-rescue_GND-power-max_breakout-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "sbc_z80-rescue_GND-power-max_breakout-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# sbc_z80-rescue_IRLML6402-Transistor_FET-max_breakout-rescue
+#
+DEF sbc_z80-rescue_IRLML6402-Transistor_FET-max_breakout-rescue Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "sbc_z80-rescue_IRLML6402-Transistor_FET-max_breakout-rescue" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 -100 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sbc_z80-rescue_IS62C5128BL-45TLI-Memory_RAM
 #
 DEF sbc_z80-rescue_IS62C5128BL-45TLI-Memory_RAM U 0 20 Y Y 1 F N
@@ -922,6 +984,29 @@ X A3 9 -600 800 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# sbc_z80-rescue_LED-Device-max_breakout-rescue
+#
+DEF sbc_z80-rescue_LED-Device-max_breakout-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "sbc_z80-rescue_LED-Device-max_breakout-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sbc_z80-rescue_LED_Dual_ACAC-Device
 #
 DEF sbc_z80-rescue_LED_Dual_ACAC-Device D 0 0 Y N 1 F N
@@ -958,6 +1043,23 @@ ENDDEF
 DEF sbc_z80-rescue_R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "sbc_z80-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# sbc_z80-rescue_R_Small-Device-max_breakout-rescue
+#
+DEF sbc_z80-rescue_R_Small-Device-max_breakout-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "sbc_z80-rescue_R_Small-Device-max_breakout-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
