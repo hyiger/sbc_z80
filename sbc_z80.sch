@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L sbc_z80-rescue:Conn_02x40_Top_Bottom-Connector_Generic J1
 U 1 1 5D153284
-P 1600 7675
-F 0 "J1" H 1650 9792 50  0000 C CNN
-F 1 "RC80 Bus" H 1650 9701 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_Top_Bottom_P2.54mm_Horizontal" H 1600 7675 50  0001 C CNN
-F 3 "~" H 1600 7675 50  0001 C CNN
-	1    1600 7675
+P 1650 7525
+F 0 "J1" H 1700 9642 50  0000 C CNN
+F 1 "RC80 Bus" H 1700 9551 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x40_Top_Bottom_P2.54mm_Horizontal" H 1650 7525 50  0001 C CNN
+F 3 "~" H 1650 7525 50  0001 C CNN
+	1    1650 7525
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -610,26 +610,26 @@ Text Label 6250 7050 0    50   ~ 0
 ~WR
 Wire Wire Line
 	6450 7050 6050 7050
-Text Label 1100 6975 0    50   ~ 0
+Text Label 1150 6825 0    50   ~ 0
 A19
-Text Label 1100 6875 0    50   ~ 0
+Text Label 1150 6725 0    50   ~ 0
 A20
-Text Label 1100 6675 0    50   ~ 0
+Text Label 1150 6525 0    50   ~ 0
 A22
-Text Label 1100 6575 0    50   ~ 0
+Text Label 1150 6425 0    50   ~ 0
 A23
-Text Label 1100 6775 0    50   ~ 0
+Text Label 1150 6625 0    50   ~ 0
 A21
 Wire Wire Line
-	1300 6875 900  6875
+	1350 6725 950  6725
 Wire Wire Line
-	1300 6575 900  6575
+	1350 6425 950  6425
 Wire Wire Line
-	1300 6975 900  6975
+	1350 6825 950  6825
 Wire Wire Line
-	1300 6675 900  6675
+	1350 6525 950  6525
 Wire Wire Line
-	1300 6775 900  6775
+	1350 6625 950  6625
 $Comp
 L sbc_z80-rescue:IS62C5128BL-45TLI-Memory_RAM U6
 U 1 1 5D5A38D6
@@ -641,212 +641,212 @@ F 3 "http://www.issi.com/WW/pdf/61-64C5128AL.pdf" H 7050 5950 50  0001 C CNN
 	1    7050 5950
 	1    0    0    -1  
 $EndComp
-Text Label 1100 7275 0    50   ~ 0
+Text Label 1150 7125 0    50   ~ 0
 A16
-Text Label 1100 7175 0    50   ~ 0
+Text Label 1150 7025 0    50   ~ 0
 A17
-Text Label 1100 7075 0    50   ~ 0
+Text Label 1150 6925 0    50   ~ 0
 A18
 Wire Wire Line
-	1300 7175 900  7175
+	1350 7025 950  7025
 Wire Wire Line
-	1300 7275 900  7275
+	1350 7125 950  7125
 Wire Wire Line
-	1300 7075 900  7075
-NoConn ~ 1300 5775
-NoConn ~ 1300 5875
-NoConn ~ 1300 5975
-NoConn ~ 1300 6075
-NoConn ~ 1300 6175
-NoConn ~ 1300 6275
-NoConn ~ 1300 6375
-NoConn ~ 1300 6475
+	1350 6925 950  6925
+NoConn ~ 1350 5625
+NoConn ~ 1350 5725
+NoConn ~ 1350 5825
+NoConn ~ 1350 5925
+NoConn ~ 1350 6025
+NoConn ~ 1350 6125
+NoConn ~ 1350 6225
+NoConn ~ 1350 6325
 Wire Wire Line
-	1300 7375 900  7375
+	1350 7225 950  7225
 Wire Wire Line
-	1300 7575 900  7575
+	1350 7425 950  7425
 Wire Wire Line
-	1300 7675 900  7675
+	1350 7525 950  7525
 Wire Wire Line
-	1300 7775 900  7775
+	1350 7625 950  7625
 Wire Wire Line
-	1300 7875 900  7875
+	1350 7725 950  7725
 Wire Wire Line
-	1300 7975 900  7975
+	1350 7825 950  7825
 Wire Wire Line
-	1300 8075 900  8075
+	1350 7925 950  7925
 Wire Wire Line
-	1300 8175 900  8175
+	1350 8025 950  8025
 Wire Wire Line
-	1300 8275 900  8275
+	1350 8125 950  8125
 Wire Wire Line
-	1300 8375 900  8375
+	1350 8225 950  8225
 Wire Wire Line
-	1300 8475 900  8475
+	1350 8325 950  8325
 Wire Wire Line
-	1300 8575 900  8575
+	1350 8425 950  8425
 Wire Wire Line
-	1300 8675 900  8675
+	1350 8525 950  8525
 Wire Wire Line
-	1300 8775 900  8775
+	1350 8625 950  8625
 Wire Wire Line
-	1300 8875 900  8875
+	1350 8725 950  8725
 Wire Wire Line
-	1300 8975 900  8975
+	1350 8825 950  8825
 Wire Wire Line
-	1300 9075 900  9075
+	1350 8925 950  8925
 Wire Wire Line
-	1300 9175 900  9175
+	1350 9025 950  9025
 Wire Wire Line
-	1300 9275 900  9275
+	1350 9125 950  9125
 Wire Wire Line
-	1300 9375 900  9375
+	1350 9225 950  9225
 Wire Wire Line
-	1300 9475 900  9475
+	1350 9325 950  9325
 Wire Wire Line
-	1300 9575 900  9575
+	1350 9425 950  9425
 Wire Wire Line
-	1300 9675 900  9675
+	1350 9525 950  9525
 Wire Wire Line
-	2200 7475 1800 7475
+	2250 7325 1850 7325
 Wire Wire Line
-	2200 7575 1800 7575
+	2250 7425 1850 7425
 Wire Wire Line
-	2200 7675 1800 7675
+	2250 7525 1850 7525
 Wire Wire Line
-	2200 7775 1800 7775
+	2250 7625 1850 7625
 Wire Wire Line
-	2200 7875 1800 7875
+	2250 7725 1850 7725
 Wire Wire Line
-	2200 9175 1800 9175
+	2250 9025 1850 9025
 Wire Wire Line
-	2200 9275 1800 9275
+	2250 9125 1850 9125
 Wire Wire Line
-	2200 9375 1800 9375
+	2250 9225 1850 9225
 Wire Wire Line
-	2200 9475 1800 9475
+	2250 9325 1850 9325
 Wire Wire Line
-	2200 9575 1800 9575
+	2250 9425 1850 9425
 Wire Wire Line
-	2200 9675 1800 9675
-Text Label 1100 7375 0    50   ~ 0
+	2250 9525 1850 9525
+Text Label 1150 7225 0    50   ~ 0
 GND
-Text Label 950  7475 0    50   ~ 0
+Text Label 1000 7325 0    50   ~ 0
 5V
-Text Label 1950 7475 0    50   ~ 0
+Text Label 2000 7325 0    50   ~ 0
 5V
-Text Label 1950 7575 0    50   ~ 0
+Text Label 2000 7425 0    50   ~ 0
 ~M1
-Text Label 1930 7675 0    50   ~ 0
+Text Label 1980 7525 0    50   ~ 0
 ~RESET
-Text Label 1950 7775 0    50   ~ 0
-CLK
-Text Label 1950 7875 0    50   ~ 0
+Text Label 1895 7625 0    50   ~ 0
+CLK_CPU
+Text Label 2000 7725 0    50   ~ 0
 ~INT
-Text Label 1950 7975 0    50   ~ 0
+Text Label 2000 7825 0    50   ~ 0
 ~MREQ
-Text Label 1950 8075 0    50   ~ 0
+Text Label 2000 7925 0    50   ~ 0
 ~WR
-Text Label 1950 8175 0    50   ~ 0
+Text Label 2000 8025 0    50   ~ 0
 ~RD
-Text Label 1950 8275 0    50   ~ 0
+Text Label 2000 8125 0    50   ~ 0
 ~IORQ
-Text Label 1950 8975 0    50   ~ 0
+Text Label 2000 8825 0    50   ~ 0
 D6
-Text Label 1950 9075 0    50   ~ 0
+Text Label 2000 8925 0    50   ~ 0
 D7
-Text Label 1950 8675 0    50   ~ 0
+Text Label 2000 8525 0    50   ~ 0
 D3
-Text Label 1950 8775 0    50   ~ 0
+Text Label 2000 8625 0    50   ~ 0
 D4
-Text Label 1950 8375 0    50   ~ 0
+Text Label 2000 8225 0    50   ~ 0
 D0
-Text Label 1950 8575 0    50   ~ 0
+Text Label 2000 8425 0    50   ~ 0
 D2
-Text Label 1950 8475 0    50   ~ 0
+Text Label 2000 8325 0    50   ~ 0
 D1
-Text Label 1950 8875 0    50   ~ 0
+Text Label 2000 8725 0    50   ~ 0
 D5
 Wire Wire Line
-	2200 8775 1800 8775
+	2250 8625 1850 8625
 Wire Wire Line
-	2200 8575 1800 8575
+	2250 8425 1850 8425
 Wire Wire Line
-	2200 8875 1800 8875
+	2250 8725 1850 8725
 Wire Wire Line
-	2200 8975 1800 8975
+	2250 8825 1850 8825
 Wire Wire Line
-	2200 8675 1800 8675
+	2250 8525 1850 8525
 Wire Wire Line
-	2200 9075 1800 9075
+	2250 8925 1850 8925
 Wire Wire Line
-	2200 8475 1800 8475
-Text Label 1070 7575 0    50   ~ 0
+	2250 8325 1850 8325
+Text Label 1120 7425 0    50   ~ 0
 ~RFSH
-Text Label 1080 7675 0    50   ~ 0
+Text Label 1130 7525 0    50   ~ 0
 ~PAGE
-Text Label 1080 7775 0    50   ~ 0
+Text Label 1130 7625 0    50   ~ 0
 CLK2
-Text Label 1010 7875 0    50   ~ 0
+Text Label 1060 7725 0    50   ~ 0
 ~BUSACK
-Text Label 1030 7975 0    50   ~ 0
+Text Label 1080 7825 0    50   ~ 0
 ~HALT
-Text Label 990  8075 0    50   ~ 0
+Text Label 1040 7925 0    50   ~ 0
 ~BUSREQ
-Text Label 1030 8175 0    50   ~ 0
+Text Label 1080 8025 0    50   ~ 0
 ~WAIT
-Text Label 1040 8275 0    50   ~ 0
+Text Label 1090 8125 0    50   ~ 0
 ~NMI
-Text Label 1060 8375 0    50   ~ 0
+Text Label 1110 8225 0    50   ~ 0
 D8
-Text Label 1060 8475 0    50   ~ 0
+Text Label 1110 8325 0    50   ~ 0
 D9
-Text Label 1060 8575 0    50   ~ 0
+Text Label 1110 8425 0    50   ~ 0
 D10
-Text Label 1060 8675 0    50   ~ 0
+Text Label 1110 8525 0    50   ~ 0
 D11
-Text Label 1060 8775 0    50   ~ 0
+Text Label 1110 8625 0    50   ~ 0
 D12
-Text Label 1060 8875 0    50   ~ 0
+Text Label 1110 8725 0    50   ~ 0
 D13
-Text Label 1060 8975 0    50   ~ 0
+Text Label 1110 8825 0    50   ~ 0
 D14
-Text Label 1060 9075 0    50   ~ 0
+Text Label 1110 8925 0    50   ~ 0
 D15
-Text Label 1950 9375 0    50   ~ 0
+Text Label 2000 9225 0    50   ~ 0
 USR1
-Text Label 1950 9475 0    50   ~ 0
+Text Label 2000 9325 0    50   ~ 0
 USR2
-Text Label 1930 9575 0    50   ~ 0
+Text Label 1980 9425 0    50   ~ 0
 USR3
-Text Label 1050 9375 0    50   ~ 0
+Text Label 1100 9225 0    50   ~ 0
 USR5
-Text Label 1050 9475 0    50   ~ 0
+Text Label 1100 9325 0    50   ~ 0
 USR6
-Text Label 1040 9575 0    50   ~ 0
+Text Label 1090 9425 0    50   ~ 0
 USR7
-Text Label 1950 9175 0    50   ~ 0
+Text Label 2000 9025 0    50   ~ 0
 TXA
-Text Label 1950 9275 0    50   ~ 0
+Text Label 2000 9125 0    50   ~ 0
 RXA
-Text Label 1080 9175 0    50   ~ 0
+Text Label 1130 9025 0    50   ~ 0
 TXB
-Text Label 1090 9275 0    50   ~ 0
+Text Label 1140 9125 0    50   ~ 0
 RXB
 $Comp
 L sbc_z80-rescue:GND-power #PWR09
 U 1 1 5D45330C
-P 2450 7375
+P 2500 7225
 AR Path="/5D45330C" Ref="#PWR09"  Part="1" 
 AR Path="/5CB63856/5D45330C" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5D45330C" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5D45330C" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5D45330C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR09" H 2450 7125 50  0001 C CNN
-F 1 "GND" H 2455 7202 50  0000 C CNN
-F 2 "" H 2450 7375 50  0001 C CNN
-F 3 "" H 2450 7375 50  0001 C CNN
-	1    2450 7375
+F 0 "#PWR09" H 2500 6975 50  0001 C CNN
+F 1 "GND" H 2505 7052 50  0000 C CNN
+F 2 "" H 2500 7225 50  0001 C CNN
+F 3 "" H 2500 7225 50  0001 C CNN
+	1    2500 7225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -861,79 +861,79 @@ F 3 "~" H 2325 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 6975 1800 6975
+	2250 6825 1850 6825
 Wire Wire Line
-	2200 7275 1800 7275
+	2250 7125 1850 7125
 Wire Wire Line
-	2200 6475 1800 6475
+	2250 6325 1850 6325
 Wire Wire Line
-	2200 6875 1800 6875
+	2250 6725 1850 6725
 Wire Wire Line
-	2200 5975 1800 5975
+	2250 5825 1850 5825
 Wire Wire Line
-	2200 6575 1800 6575
+	2250 6425 1850 6425
 Wire Wire Line
-	2200 5875 1800 5875
+	2250 5725 1850 5725
 Wire Wire Line
-	2200 6175 1800 6175
+	2250 6025 1850 6025
 Wire Wire Line
-	2200 6275 1800 6275
+	2250 6125 1850 6125
 Wire Wire Line
-	2200 7175 1800 7175
+	2250 7025 1850 7025
 Wire Wire Line
-	2200 5775 1800 5775
+	2250 5625 1850 5625
 Wire Wire Line
-	2200 6675 1800 6675
+	2250 6525 1850 6525
 Wire Wire Line
-	2200 6775 1800 6775
+	2250 6625 1850 6625
 Wire Wire Line
-	2200 6375 1800 6375
+	2250 6225 1850 6225
 Wire Wire Line
-	2200 6075 1800 6075
+	2250 5925 1850 5925
 Wire Wire Line
-	2200 7075 1800 7075
-Text Label 2000 7275 0    50   ~ 0
+	2250 6925 1850 6925
+Text Label 2050 7125 0    50   ~ 0
 A0
-Text Label 2000 5975 0    50   ~ 0
+Text Label 2050 5825 0    50   ~ 0
 A13
-Text Label 2000 6475 0    50   ~ 0
+Text Label 2050 6325 0    50   ~ 0
 A8
-Text Label 2000 6875 0    50   ~ 0
+Text Label 2050 6725 0    50   ~ 0
 A4
-Text Label 2000 6575 0    50   ~ 0
+Text Label 2050 6425 0    50   ~ 0
 A7
-Text Label 2000 5775 0    50   ~ 0
+Text Label 2050 5625 0    50   ~ 0
 A15
-Text Label 2000 5875 0    50   ~ 0
+Text Label 2050 5725 0    50   ~ 0
 A14
-Text Label 2000 6075 0    50   ~ 0
+Text Label 2050 5925 0    50   ~ 0
 A12
-Text Label 2000 6775 0    50   ~ 0
+Text Label 2050 6625 0    50   ~ 0
 A5
-Text Label 2000 6175 0    50   ~ 0
+Text Label 2050 6025 0    50   ~ 0
 A11
-Text Label 2000 6975 0    50   ~ 0
+Text Label 2050 6825 0    50   ~ 0
 A3
-Text Label 2000 6675 0    50   ~ 0
+Text Label 2050 6525 0    50   ~ 0
 A6
-Text Label 2000 7175 0    50   ~ 0
+Text Label 2050 7025 0    50   ~ 0
 A1
-Text Label 2000 7075 0    50   ~ 0
+Text Label 2050 6925 0    50   ~ 0
 A2
-Text Label 2000 6375 0    50   ~ 0
+Text Label 2050 6225 0    50   ~ 0
 A9
-Text Label 2000 6275 0    50   ~ 0
+Text Label 2050 6125 0    50   ~ 0
 A10
 Wire Wire Line
-	1800 8075 2200 8075
+	1850 7925 2250 7925
 Wire Wire Line
-	1800 7975 2200 7975
+	1850 7825 2250 7825
 Wire Wire Line
-	1800 8175 2200 8175
+	1850 8025 2250 8025
 Wire Wire Line
-	1800 8275 2200 8275
+	1850 8125 2250 8125
 Wire Wire Line
-	1800 8375 2200 8375
+	1850 8225 2250 8225
 $Comp
 L power:VCC #PWR010
 U 1 1 5D47433A
@@ -945,13 +945,13 @@ F 3 "" H 2575 4450 50  0001 C CNN
 	1    2575 4450
 	1    0    0    -1  
 $EndComp
-Text Label 2050 7375 0    50   ~ 0
+Text Label 2100 7225 0    50   ~ 0
 GND
 Wire Wire Line
-	750  7475 1300 7475
-Text Label 1100 9675 0    50   ~ 0
+	800  7325 1350 7325
+Text Label 1150 9525 0    50   ~ 0
 IEO
-Text Label 1950 9675 0    50   ~ 0
+Text Label 2000 9525 0    50   ~ 0
 IEI
 Wire Wire Line
 	10650 7600 10650 7700
@@ -1529,7 +1529,7 @@ Text Label 5550 6825 2    50   ~ 0
 Text Label 5550 6925 2    50   ~ 0
 ~BUSACK
 Text Label 5550 7225 2    50   ~ 0
-CLK
+CLK_CPU
 $Comp
 L sbc_z80-rescue:GND-power #PWR012
 U 1 1 5D42F42E
@@ -2502,12 +2502,12 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR01
 U 1 1 5D47DAEA
-P 750 7475
-F 0 "#PWR01" H 750 7325 50  0001 C CNN
-F 1 "VCC" H 800 7625 50  0000 C CNN
-F 2 "" H 750 7475 50  0001 C CNN
-F 3 "" H 750 7475 50  0001 C CNN
-	1    750  7475
+P 800 7325
+F 0 "#PWR01" H 800 7175 50  0001 C CNN
+F 1 "VCC" H 850 7475 50  0000 C CNN
+F 2 "" H 800 7325 50  0001 C CNN
+F 3 "" H 800 7325 50  0001 C CNN
+	1    800  7325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2662,31 +2662,31 @@ Wire Wire Line
 Wire Wire Line
 	12450 1000 12450 900 
 Wire Wire Line
-	1800 7375 2450 7375
+	1850 7225 2500 7225
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5D49BA77
-P 2450 7375
-F 0 "#FLG03" H 2450 7450 50  0001 C CNN
-F 1 "PWR_FLAG" H 2450 7548 50  0000 C CNN
-F 2 "" H 2450 7375 50  0001 C CNN
-F 3 "~" H 2450 7375 50  0001 C CNN
-	1    2450 7375
+P 2500 7225
+F 0 "#FLG03" H 2500 7300 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 7398 50  0000 C CNN
+F 2 "" H 2500 7225 50  0001 C CNN
+F 3 "~" H 2500 7225 50  0001 C CNN
+	1    2500 7225
 	1    0    0    -1  
 $EndComp
-Connection ~ 2450 7375
+Connection ~ 2500 7225
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5D49C315
-P 750 7475
-F 0 "#FLG01" H 750 7550 50  0001 C CNN
-F 1 "PWR_FLAG" H 750 7648 50  0000 C CNN
-F 2 "" H 750 7475 50  0001 C CNN
-F 3 "~" H 750 7475 50  0001 C CNN
-	1    750  7475
+P 800 7325
+F 0 "#FLG01" H 800 7400 50  0001 C CNN
+F 1 "PWR_FLAG" H 800 7498 50  0000 C CNN
+F 2 "" H 800 7325 50  0001 C CNN
+F 3 "~" H 800 7325 50  0001 C CNN
+	1    800  7325
 	-1   0    0    1   
 $EndComp
-Connection ~ 750  7475
+Connection ~ 800  7325
 Wire Wire Line
 	9050 7800 9150 7800
 Wire Wire Line

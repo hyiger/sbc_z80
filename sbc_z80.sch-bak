@@ -1529,7 +1529,7 @@ Text Label 5550 6825 2    50   ~ 0
 Text Label 5550 6925 2    50   ~ 0
 ~BUSACK
 Text Label 5550 7225 2    50   ~ 0
-CLK
+CLK_CPU
 $Comp
 L sbc_z80-rescue:GND-power #PWR012
 U 1 1 5D42F42E
@@ -4277,20 +4277,20 @@ Wire Notes Line
 $Comp
 L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D4F2BC3
-P 2575 10700
+P 2600 10700
 AR Path="/5D65A6A0/5D4F2BC3" Ref="C?"  Part="1" 
-AR Path="/5D4F2BC3" Ref="C?"  Part="1" 
-F 0 "C?" H 2667 10746 50  0000 L CNN
-F 1 "100nF" H 2667 10655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2575 10700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2575 10700 50  0001 C CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 2667 10846 50  0001 C CNN "Description"
-F 5 "Taiyo Yuden" H 2575 10700 50  0001 C CNN "MFR"
-F 6 "JMK107B7474KA-T" H 2575 10700 50  0001 C CNN "MPN"
-F 7 "963-JMK107B7474KA-T" H 2667 10846 50  0001 C CNN "SPN"
-F 8 "Mouser" H 2575 10700 50  0001 C CNN "SPR"
-F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2667 10846 50  0001 C CNN "SPURL"
-	1    2575 10700
+AR Path="/5D4F2BC3" Ref="C15"  Part="1" 
+F 0 "C15" H 2692 10746 50  0000 L CNN
+F 1 "100nF" H 2692 10655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2600 10700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2600 10700 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 2692 10846 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 2600 10700 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 2600 10700 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 2692 10846 50  0001 C CNN "SPN"
+F 8 "Mouser" H 2600 10700 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 2692 10846 50  0001 C CNN "SPURL"
+	1    2600 10700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4298,8 +4298,8 @@ L sbc_z80-rescue:C_Small-Device C?
 U 1 1 5D4F2BC4
 P 2800 10700
 AR Path="/5D65A6A0/5D4F2BC4" Ref="C?"  Part="1" 
-AR Path="/5D4F2BC4" Ref="C?"  Part="1" 
-F 0 "C?" H 2892 10746 50  0000 L CNN
+AR Path="/5D4F2BC4" Ref="C16"  Part="1" 
+F 0 "C16" H 2892 10746 50  0000 L CNN
 F 1 "100nF" H 2892 10655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 10700 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 2800 10700 50  0001 C CNN
@@ -4315,7 +4315,13 @@ $EndComp
 Connection ~ 2375 10600
 Connection ~ 2375 10800
 Wire Wire Line
-	2375 10800 2800 10800
+	2375 10800 2600 10800
 Wire Wire Line
-	2375 10600 2800 10600
+	2375 10600 2600 10600
+Connection ~ 2600 10600
+Wire Wire Line
+	2600 10600 2800 10600
+Connection ~ 2600 10800
+Wire Wire Line
+	2600 10800 2800 10800
 $EndSCHEMATC
