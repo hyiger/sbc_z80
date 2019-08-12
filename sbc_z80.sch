@@ -1774,7 +1774,7 @@ Wire Wire Line
 Text Label 3650 9375 2    50   ~ 0
 CLK_CPU
 Text Label 3500 9625 0    50   ~ 0
-~SIO
+~CTC
 Text Label 3500 10425 0    50   ~ 0
 IEO
 Text Label 3500 10525 0    50   ~ 0
@@ -3661,20 +3661,6 @@ $EndComp
 Wire Wire Line
 	2500 3300 2500 3350
 Connection ~ 2500 3300
-$Comp
-L power:+5V #PWR0116
-U 1 1 5CB7C89C
-P 2500 2600
-AR Path="/5CB7C89C" Ref="#PWR0116"  Part="1" 
-AR Path="/5CB63856/5CB7C89C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB5AB00/5CB63856/5CB7C89C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0116" H 2500 2450 50  0001 C CNN
-F 1 "+5V" H 2515 2773 50  0000 C CNN
-F 2 "" H 2500 2600 50  0001 C CNN
-F 3 "" H 2500 2600 50  0001 C CNN
-	1    2500 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 2900 1400 3100
 Wire Wire Line
@@ -3761,7 +3747,6 @@ F 9 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX40200AUK%2bT?qs=%2
 $EndComp
 Wire Notes Line
 	600  4050 2850 4050
-Connection ~ 2500 2600
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CBC2E1E
@@ -4324,4 +4309,16 @@ Wire Wire Line
 Connection ~ 2600 10800
 Wire Wire Line
 	2600 10800 2800 10800
+$Comp
+L power:VCC #PWR0101
+U 1 1 5D50F790
+P 2500 2600
+F 0 "#PWR0101" H 2500 2450 50  0001 C CNN
+F 1 "VCC" H 2500 2750 50  0000 C CNN
+F 2 "" H 2500 2600 50  0001 C CNN
+F 3 "" H 2500 2600 50  0001 C CNN
+	1    2500 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 2600
 $EndSCHEMATC
