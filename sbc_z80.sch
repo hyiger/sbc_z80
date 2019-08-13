@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "THS-80"
-Date "2019-05-06"
-Rev ""
+Date "2019-08-13"
+Rev "1.0"
 Comp "Hyiger Designs"
 Comment1 ""
 Comment2 ""
@@ -2032,7 +2032,7 @@ Wire Wire Line
 Wire Wire Line
 	10775 9675 10375 9675
 Wire Wire Line
-	10775 9875 10375 9875
+	10775 9875 10650 9875
 Wire Wire Line
 	10775 9775 10375 9775
 Wire Wire Line
@@ -4260,4 +4260,46 @@ NoConn ~ 10375 9475
 NoConn ~ 10375 9275
 NoConn ~ 10375 10675
 NoConn ~ 10375 10575
+$Comp
+L sbc_z80-rescue:C_Small-Device C?
+U 1 1 5D65939B
+P 10650 10050
+AR Path="/5D65A6A0/5D65939B" Ref="C?"  Part="1" 
+AR Path="/5D65939B" Ref="C10"  Part="1" 
+F 0 "C10" H 10742 10096 50  0000 L CNN
+F 1 "100nF" H 10742 10005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10650 10050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 10650 10050 50  0001 C CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 6.3V 0.47uF 10% X7R" H 10742 10196 50  0001 C CNN "Description"
+F 5 "Taiyo Yuden" H 10650 10050 50  0001 C CNN "MFR"
+F 6 "JMK107B7474KA-T" H 10650 10050 50  0001 C CNN "MPN"
+F 7 "963-JMK107B7474KA-T" H 10742 10196 50  0001 C CNN "SPN"
+F 8 "Mouser" H 10650 10050 50  0001 C CNN "SPR"
+F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 10742 10196 50  0001 C CNN "SPURL"
+	1    10650 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 9950 10650 9875
+Connection ~ 10650 9875
+Wire Wire Line
+	10650 9875 10375 9875
+$Comp
+L sbc_z80-rescue:GND-power #PWR05
+U 1 1 5D65A340
+P 10650 10225
+AR Path="/5D65A340" Ref="#PWR05"  Part="1" 
+AR Path="/5CB63856/5D65A340" Ref="#PWR?"  Part="1" 
+AR Path="/5CB5AB00/5CB63856/5D65A340" Ref="#PWR?"  Part="1" 
+AR Path="/5CFABACD/5D65A340" Ref="#PWR?"  Part="1" 
+AR Path="/5CF9C1ED/5D65A340" Ref="#PWR?"  Part="1" 
+F 0 "#PWR05" H 10650 9975 50  0001 C CNN
+F 1 "GND" H 10650 10050 50  0000 C CNN
+F 2 "" H 10650 10225 50  0001 C CNN
+F 3 "" H 10650 10225 50  0001 C CNN
+	1    10650 10225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 10150 10650 10225
 $EndSCHEMATC
